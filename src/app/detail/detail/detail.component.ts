@@ -2,6 +2,8 @@ import { Component, OnInit, Inject, OnDestroy } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { DATA_PROVIDER } from '../../providers';
 import { Subscription } from 'rxjs/Subscription';
+import { DomSanitizer, SafeStyle } from '@angular/platform-browser';
+import * as exif from 'exif-js';
 
 @Component({
   selector: 'kc-detail',
@@ -13,23 +15,26 @@ export class DetailComponent implements OnInit,  OnDestroy {
   public category: string | null | undefined;
   public imageDescription: string | undefined;
   public imageUrl: string | undefined;
+  public imageUrlStyle: SafeStyle | undefined;
   private subscription = Subscription.EMPTY;
 
   constructor(
     private router: Router,
     @Inject(DATA_PROVIDER) private data: any,
-    activatedRoute: ActivatedRoute
+    activatedRoute: ActivatedRoute,
+    sanitizer: DomSanitizer
   ) {
     this.subscription = activatedRoute.paramMap
       .subscribe((params: ParamMap) => {
         this.src = params.get('file');
         this.category = params.get('category');
+        this.imageUrl = `assets/Kirchenchronik/${this.category}/${this.src}`;
+        this.imageUrlStyle = sanitizer.bypassSecurityTrustStyle(`url('${this.imageUrl}')`);
+        this.imageDescription = this.imageUrl;
       });
   }
 
   ngOnInit() {
-    this.imageDescription = 'balkjblaj';
-    this.imageUrl = `assets/${this.category}/${this.src}`;
   }
 
   ngOnDestroy() {
@@ -56,6 +61,15 @@ export class DetailComponent implements OnInit,  OnDestroy {
         this.router.navigate(['/detail', this.category, prevFile]);
       }
     }
+  }
+
+  imageLoaded(): void {
+    console.log('Loaded!');
+    const img = document.getElementById('hiddenImg');
+    exif.getData(img, function() {
+      const all = exif.getAllTags((this as any));
+      console.log('all', all);
+    });
   }
 
   private getNextFile(currentFile: string, allFiles: string[]): string | undefined {

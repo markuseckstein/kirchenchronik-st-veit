@@ -1,6 +1,10 @@
-<kc-headline [heading]="category" (back)="onBack()"></kc-headline>
+<kc-headline class="detail__headline" [heading]="category" (back)="onBack()"></kc-headline>
 
-<img #image class="detail__image" src="{{imageUrl}}" (load)="imageLoaded()">
+<div class="detail__image" [style.background-image]="imageUrlStyle" (load)="imageLoaded()">
+  <div class="detail__image-clicker" (click)="onPrev()"></div>
+  <div class="detail__image-clicker" (click)="onNext()"></div>
+</div>
+<img id="hiddenImg" [src]="imageUrl" class="detail__image-hidden" (load)="imageLoaded()">
 
 <p class="detail__description">
   {{imageDescription}}

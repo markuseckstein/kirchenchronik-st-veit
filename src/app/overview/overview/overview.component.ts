@@ -25,6 +25,10 @@ export class OverviewComponent implements OnInit {
     }
   }
 
+  getFullImageUrl(file: string): string {
+    return `assets/Kirchenchronik/${this.category}/${file}`;
+  }
+
   onBack(): void {
     this.router.navigate(['']);
   }
