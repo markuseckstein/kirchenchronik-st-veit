@@ -1,7 +1,12 @@
 :host {
     width: 100%;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 15px;
+    background-color: #222;
+}
+
+.back {
+    cursor: pointer;
 }

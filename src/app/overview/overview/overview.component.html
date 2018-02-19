@@ -1,5 +1,5 @@
 <kc-headline [heading]="category" (back)="onBack()"></kc-headline>
 
 <div class="overview__container">
-  <kc-preview *ngFor="let img of images" [src]="getFullImageUrl(img)" [routerLink]="['/detail', category, img]"></kc-preview>
+  <kc-preview *ngFor="let img of images" [src]="getFullImageUrl(img.name)" [routerLink]="['/detail', category, img.name]"></kc-preview>
 </div>

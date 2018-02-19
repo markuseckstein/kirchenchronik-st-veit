@@ -1,16 +1,19 @@
-import { Component, OnInit, Inject, OnDestroy } from '@angular/core';
+import { Component, OnInit, Inject, OnDestroy, ChangeDetectorRef, ChangeDetectionStrategy } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { DATA_PROVIDER } from '../../providers';
 import { Subscription } from 'rxjs/Subscription';
 import { DomSanitizer, SafeStyle } from '@angular/platform-browser';
-import * as exif from 'exif-js';
+import { ImageInfo } from '../../shared/image-info';
+
+declare function unescape(s: string): string;
 
 @Component({
   selector: 'kc-detail',
   templateUrl: './detail.component.html',
-  styleUrls: ['./detail.component.scss']
+  styleUrls: ['./detail.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class DetailComponent implements OnInit,  OnDestroy {
+export class DetailComponent implements OnInit, OnDestroy {
   public src: string | null | undefined;
   public category: string | null | undefined;
   public imageDescription: string | undefined;
@@ -22,15 +25,20 @@ export class DetailComponent implements OnInit,  OnDestroy {
     private router: Router,
     @Inject(DATA_PROVIDER) private data: any,
     activatedRoute: ActivatedRoute,
-    sanitizer: DomSanitizer
+    sanitizer: DomSanitizer,
+    private cdr: ChangeDetectorRef
   ) {
     this.subscription = activatedRoute.paramMap
       .subscribe((params: ParamMap) => {
         this.src = params.get('file');
         this.category = params.get('category');
-        this.imageUrl = `assets/Kirchenchronik/${this.category}/${this.src}`;
+        this.imageDescription = undefined;
+        this.imageUrl = `assets/Kirchenchronik_main/${this.category}/${this.src}`;
         this.imageUrlStyle = sanitizer.bypassSecurityTrustStyle(`url('${this.imageUrl}')`);
-        this.imageDescription = this.imageUrl;
+        if (this.src && this.data && this.category) {
+          this.imageDescription = this.getDescription(this.src, this.data[this.category].images);
+        }
+        this.cdr.markForCheck();
       });
   }
 
@@ -63,35 +71,35 @@ export class DetailComponent implements OnInit,  OnDestroy {
     }
   }
 
-  imageLoaded(): void {
-    console.log('Loaded!');
-    const img = document.getElementById('hiddenImg');
-    exif.getData(img, function() {
-      const all = exif.getAllTags((this as any));
-      console.log('all', all);
-    });
+  private getDescription(fileName: string | null, allFiles: ImageInfo[]): string | undefined {
+    if (!fileName) {
+      return undefined;
+    }
+    const entry = allFiles.find(x => x.name === fileName);
+    return entry ? entry.description : undefined;
   }
 
-  private getNextFile(currentFile: string, allFiles: string[]): string | undefined {
-    const idx = allFiles.findIndex(x => x === currentFile);
+
+  private getNextFile(currentFile: string, allFiles: ImageInfo[]): string | undefined {
+    const idx = allFiles.findIndex(x => x.name === currentFile);
     if (idx === -1) {
       return undefined;
     }
     const idxOfNextFile = idx + 1;
     if (allFiles.length - 1 >= idxOfNextFile) {
-      return allFiles[idxOfNextFile];
+      return allFiles[idxOfNextFile].name;
     }
     return undefined;
   }
 
-  private getPrevFile(currentFile: string, allFiles: string[]): string | undefined {
-    const idx = allFiles.findIndex(x => x === currentFile);
+  private getPrevFile(currentFile: string, allFiles: ImageInfo[]): string | undefined {
+    const idx = allFiles.findIndex(x => x.name === currentFile);
     if (idx === -1) {
       return undefined;
     }
     const idxOfPrevFile = idx - 1;
     if (idxOfPrevFile >= 0) {
-      return allFiles[idxOfPrevFile];
+      return allFiles[idxOfPrevFile].name;
     }
     return undefined;
   }

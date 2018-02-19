@@ -1,6 +1,7 @@
 import { Component, OnInit, ChangeDetectionStrategy, Inject } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { DATA_PROVIDER } from '../../providers';
+import { ImageInfo } from '../../shared/image-info';
 
 @Component({
   selector: 'kc-overview',
@@ -10,7 +11,7 @@ import { DATA_PROVIDER } from '../../providers';
 })
 export class OverviewComponent implements OnInit {
   public category: string | null;
-  public images: string[] = [];
+  public images: ImageInfo[] = [];
 
   constructor(private router: Router, private activatedRoute: ActivatedRoute, @Inject(DATA_PROVIDER) private data: any) {
     this.category = this.activatedRoute.snapshot.paramMap.get('category');
@@ -26,7 +27,7 @@ export class OverviewComponent implements OnInit {
   }
 
   getFullImageUrl(file: string): string {
-    return `assets/Kirchenchronik/${this.category}/${file}`;
+    return `assets/Kirchenchronik_thumb/${this.category}/${file}`;
   }
 
   onBack(): void {

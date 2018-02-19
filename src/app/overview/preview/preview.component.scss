@@ -1,6 +1,10 @@
 :host {
-    display: inline-block;
-    width: 10vw;
+    height: 10vh;
+    overflow: hidden;
+    margin: 15px;
+}
+
+img {
     border: 1px solid grey;
-    height: 7vw;
+    height: 100%;
 }
