@@ -9,4 +9,20 @@
 
 .back {
     cursor: pointer;
+    flex-grow: 0;
+}
+
+.heading {
+    flex-grow: 0;
+}
+
+.sub-heading {
+    color: gray;
+    font-size: 1em;
+    flex-grow: 0;
+    margin-left: 2.5em;
+}
+
+.spacer {
+    flex-grow: 1;
 }

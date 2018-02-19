@@ -19,6 +19,7 @@ export class DetailComponent implements OnInit, OnDestroy {
   public imageDescription: string | undefined;
   public imageUrl: string | undefined;
   public imageUrlStyle: SafeStyle | undefined;
+  public pageInfo: string | undefined;
   private subscription = Subscription.EMPTY;
 
   constructor(
@@ -37,6 +38,7 @@ export class DetailComponent implements OnInit, OnDestroy {
         this.imageUrlStyle = sanitizer.bypassSecurityTrustStyle(`url('${this.imageUrl}')`);
         if (this.src && this.data && this.category) {
           this.imageDescription = this.getDescription(this.src, this.data[this.category].images);
+          this.pageInfo =this.getPageInfo(this.src, this.data[this.category].images);
         }
         this.cdr.markForCheck();
       });
@@ -77,6 +79,17 @@ export class DetailComponent implements OnInit, OnDestroy {
     }
     const entry = allFiles.find(x => x.name === fileName);
     return entry ? entry.description : undefined;
+  }
+
+  private getPageInfo(fileName: string | null, allFiles: ImageInfo[]): string | undefined {
+    let result: string | undefined;
+    if (fileName) {
+      const idx = allFiles.findIndex(x => x.name === fileName);
+      if (idx > -1) {
+        result = `${idx + 1} / ${allFiles.length}`;
+      }
+    }
+    return result;
   }
 
 

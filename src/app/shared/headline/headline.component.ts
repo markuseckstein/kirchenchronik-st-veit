@@ -9,5 +9,6 @@ import { ChangeDetectionStrategy } from '@angular/core';
 })
 export class HeadlineComponent {
   @Input() heading: string | undefined;
+  @Input() subHeading: string | undefined;
   @Output() back = new EventEmitter<void>();
 }

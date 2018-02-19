@@ -1,1 +1,4 @@
-<h2>{{heading}}</h2><span class="back" (click)="back.emit()">zurück</span>
+<h2 class="heading">{{heading}}</h2>
+<h3 class="sub-heading" *ngIf="subHeading">{{subHeading}}</h3>
+<div class="spacer" *ngIf="subHeading">&nbsp;</div>
+<span class="back" (click)="back.emit()">zurück</span>

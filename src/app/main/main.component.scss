@@ -1,0 +1,24 @@
+:host {
+    padding: 2em;
+    display: block;
+}
+
+.container {
+    display: flex;
+}
+
+.logo {
+    width: 25vw;
+    img {
+        width: 100%;
+    }
+}
+
+.category {
+    padding-bottom: 1em;
+    & a {
+        color: #eee;
+        text-decoration: none;
+    }
+    
+}

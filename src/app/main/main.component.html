@@ -1,6 +1,23 @@
-<h1>Kirchenchronik St-Veit</h1>
-<p>bla</p>
+<div class="container">
+  <div>
+    <h1>Bilderchronik über die Kirchengemeinde St-Veit Altenthann</h1>
+    <p>mit Fotos von Hildegard Abraham, Werner Eckstein und Anderen.</p>
 
+    <p>
+      Zusamenstellung: Liselotte Eckstein
+      <br> Technische Umsetzung: Markus Eckstein
+    </p>
+
+    <p>
+      Februar 2018
+    </p>
+  </div>
+  <div class="logo">
+    <img alt="Logo St-Veit" src="assets/st-veit-logo.png">
+  </div>
+</div>
 <ul>
-  <li *ngFor="let cat of categories"><a [routerLink]="['/overview', cat]">{{cat}}</a></li>
+  <li class="category" *ngFor="let cat of categories">
+    <a [routerLink]="['/overview', cat]">{{cat}}</a>
+  </li>
 </ul>

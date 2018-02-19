@@ -1,17 +1,15 @@
-<kc-headline class="detail__headline" [heading]="category" (back)="onBack()"></kc-headline>
+<kc-headline class="detail__headline" [heading]="category" [subHeading]="pageInfo" (back)="onBack()"></kc-headline>
 
 <div class="detail__image" [style.background-image]="imageUrlStyle">
   <div class="detail__image-clicker" (click)="onPrev()"></div>
   <div class="detail__image-clicker" (click)="onNext()"></div>
 </div>
 
-<p class="detail__description">
-  {{imageDescription}}
-</p>
-<p class="detail__filename">
-  {{imageUrl}}
-</p>
-<div style="display: flex; justify-content: space-between">
-  <button (click)="onPrev()">prev</button>
-  <button (click)="onNext()">next</button>
+<div class="detail__description-container">
+  <p class="detail__description">
+    {{imageDescription}}
+  </p>
+  <span class="detail__filename">
+    {{src}}
+  </span>
 </div>

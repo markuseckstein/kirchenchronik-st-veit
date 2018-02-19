@@ -1,8 +1,12 @@
+.detail__headline {
+    height: 5vh;
+}
+
 .detail__image {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 80vh;
+    height: 86vh;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -11,12 +15,25 @@
 .detail__image-clicker {
     width: 40vw;
     height: 100%;
-    border: 1px dashed yellow;
     cursor: pointer;
 }
 
-.detail__image-hidden {
-    visibility: hidden;
-    height: 0;
-    width: 0;
+.detail__description-container {
+    position: relative;
+    height: 9vh;
+    padding: .5em .5em;
+}
+
+.detail__description {
+    text-align: center;
+}
+
+.detail__filename {
+    position: absolute;
+    font-family: monospace;
+    right: 0;
+    bottom: 0;
+    color: #555;
+    font-size: .8em;
+    padding: 0 5px 3px 0;
 }
