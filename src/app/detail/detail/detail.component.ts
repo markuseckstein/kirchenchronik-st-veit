@@ -2,8 +2,9 @@ import { Component, OnInit, Inject, OnDestroy, ChangeDetectorRef, ChangeDetectio
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { DATA_PROVIDER } from '../../providers';
 import { Subscription } from 'rxjs/Subscription';
-import { DomSanitizer, SafeStyle } from '@angular/platform-browser';
-import { ImageInfo } from '../../shared/image-info';
+import { fromEvent } from 'rxjs/observable/fromEvent';
+import { DomSanitizer, SafeStyle, SafeResourceUrl } from '@angular/platform-browser';
+import { ImageInfo, AssetType } from '../../shared/image-info';
 
 declare function unescape(s: string): string;
 
@@ -19,8 +20,11 @@ export class DetailComponent implements OnInit, OnDestroy {
   public imageDescription: string | undefined;
   public imageUrl: string | undefined;
   public imageUrlStyle: SafeStyle | undefined;
+  public documentUrlResource: SafeResourceUrl | undefined;
   public pageInfo: string | undefined;
-  private subscription = Subscription.EMPTY;
+  public assetType: AssetType = 'image';
+  private routeSubscription = Subscription.EMPTY;
+  private keySubscription = Subscription.EMPTY;
 
   constructor(
     private router: Router,
@@ -29,26 +33,54 @@ export class DetailComponent implements OnInit, OnDestroy {
     sanitizer: DomSanitizer,
     private cdr: ChangeDetectorRef
   ) {
-    this.subscription = activatedRoute.paramMap
+    this.routeSubscription = activatedRoute.paramMap
       .subscribe((params: ParamMap) => {
         this.src = params.get('file');
         this.category = params.get('category');
         this.imageDescription = undefined;
         this.imageUrl = `assets/Kirchenchronik_main/${this.category}/${this.src}`;
         this.imageUrlStyle = sanitizer.bypassSecurityTrustStyle(`url('${this.imageUrl}')`);
+        this.documentUrlResource = sanitizer.bypassSecurityTrustResourceUrl(this.imageUrl);
+        if (this.src && this.data && this.category) {
+          const allFiles = this.data[this.category].images;
+          const entry: ImageInfo | undefined = allFiles.find(x => x.name === this.src);
+          if (entry) {
+            this.assetType = entry.type;
+          }
+        }
+
+
         if (this.src && this.data && this.category) {
           this.imageDescription = this.getDescription(this.src, this.data[this.category].images);
-          this.pageInfo =this.getPageInfo(this.src, this.data[this.category].images);
+          this.pageInfo = this.getPageInfo(this.src, this.data[this.category].images);
         }
         this.cdr.markForCheck();
       });
   }
 
   ngOnInit() {
+    this.keySubscription = fromEvent<KeyboardEvent>(document, 'keyup')
+      .subscribe((evt: KeyboardEvent) => {
+        console.log(evt);
+        switch (evt.code) {
+          case 'ArrowLeft':
+          case 'Backspace':
+            this.onPrev();
+            break;
+          case 'ArrowRight':
+          case 'Space':
+            this.onNext();
+            break;
+          case 'Escape':
+            this.onBack();
+            break;
+        }
+      });
   }
 
   ngOnDestroy() {
-    this.subscription.unsubscribe();
+    this.routeSubscription.unsubscribe();
+    this.keySubscription.unsubscribe();
   }
 
   onBack(): void {

@@ -1,0 +1,24 @@
+// .detail__image {
+//     display: flex;
+//     justify-content: space-between;
+//     width: 100%;
+//     height: 86vh;
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     background-position: center;
+// }
+
+// .detail__image-clicker {
+//     width: 40vw;
+//     height: 100%;
+//     cursor: pointer;
+// }
+
+:host {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

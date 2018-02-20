@@ -2,20 +2,10 @@
     height: 5vh;
 }
 
-.detail__image {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+.detail__view {
+    display: block;
     height: 86vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.detail__image-clicker {
-    width: 40vw;
-    height: 100%;
-    cursor: pointer;
+    position: relative;
 }
 
 .detail__description-container {
@@ -36,4 +26,10 @@
     color: #555;
     font-size: .8em;
     padding: 0 5px 3px 0;
+}
+
+.button {
+    margin-left: 2em;
+    font-size: xx-large;
+    cursor: pointer;
 }
