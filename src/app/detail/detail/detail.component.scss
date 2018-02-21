@@ -6,6 +6,11 @@
     display: block;
     height: 86vh;
     position: relative;
+    transition: opacity .25s ease-in-out;
+
+    &.detail-hidden {
+        opacity: 0;
+    }
 }
 
 .detail__description-container {
@@ -16,6 +21,11 @@
 
 .detail__description {
     text-align: center;
+    transition: opacity .25s ease-in-out;
+
+    &.detail-hidden {
+        opacity: 0;
+    }
 }
 
 .detail__filename {
@@ -32,4 +42,5 @@
     margin-left: 2em;
     font-size: xx-large;
     cursor: pointer;
+    user-select: none;
 }

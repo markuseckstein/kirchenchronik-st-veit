@@ -1,5 +1,8 @@
 
-<span (click)="toggleBells()">Glocken {{isOn}}</span>
+<div class="container" (click)="toggleBells()">
+  <img class="church" src="assets/st-veit-logo.png">
+  <img *ngIf="isOn" class="bell" src="assets/bell-indicator.png">
+</div>
 <audio class="audio" #audio loop>
   <source src="assets/glocken-st-veit.mp3" type="audio/mp3">
 </audio>

@@ -7,23 +7,19 @@ import { Component, ElementRef, ViewChild, ChangeDetectionStrategy, ChangeDetect
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class BellsComponent {
-  private _isOn = false;
+  public isOn = false;
 
   @ViewChild('audio') audioRef: ElementRef | undefined;
-
-  get isOn(): string {
-    return this._isOn ? `an` : `aus`;
-  }
 
   constructor(private cdr: ChangeDetectorRef) {
   }
 
   toggleBells(): void {
     if (this.audioRef) {
-      this._isOn = !this._isOn;
+      this.isOn = !this.isOn;
       const audio = this.audioRef.nativeElement as HTMLAudioElement;
 
-      if (this._isOn) {
+      if (this.isOn) {
         audio.play();
       } else {
         audio.pause();

@@ -3,14 +3,14 @@
   <span class="button" (click)="onPrev()">&lArr;</span><span class="button" (click)="onNext()">&rArr;</span>
 </kc-headline>
 
-<div class="detail__view">
+<div class="detail__view" [class.detail-hidden]="detailHidden">
   <kc-image *ngIf="assetType === 'image'" [image]="imageUrlStyle"></kc-image>
   <kc-pdf *ngIf="assetType === 'pdf'" [src]="documentUrlResource"></kc-pdf>
   <kc-video *ngIf="assetType === 'video'" [src]="documentUrlResource"></kc-video>
 </div>
 
 <div class="detail__description-container">
-  <p class="detail__description">
+  <p class="detail__description" [class.detail-hidden]="detailHidden">
     {{imageDescription}}
   </p>
   <span class="detail__filename">

@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
+import { NgModule, Injectable, Inject } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
@@ -19,7 +19,8 @@ import { DetailModule } from './detail/detail.module';
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes),
+    BrowserAnimationsModule,
+    RouterModule.forRoot(routes, { useHash: false }),
     OverviewModule,
     DetailModule
   ],

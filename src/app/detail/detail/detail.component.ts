@@ -6,7 +6,10 @@ import { fromEvent } from 'rxjs/observable/fromEvent';
 import { DomSanitizer, SafeStyle, SafeResourceUrl } from '@angular/platform-browser';
 import { ImageInfo, AssetType } from '../../shared/image-info';
 
-declare function unescape(s: string): string;
+
+
+
+
 
 @Component({
   selector: 'kc-detail',
@@ -23,6 +26,7 @@ export class DetailComponent implements OnInit, OnDestroy {
   public documentUrlResource: SafeResourceUrl | undefined;
   public pageInfo: string | undefined;
   public assetType: AssetType = 'image';
+  public detailHidden = false;
   private routeSubscription = Subscription.EMPTY;
   private keySubscription = Subscription.EMPTY;
 
@@ -35,26 +39,31 @@ export class DetailComponent implements OnInit, OnDestroy {
   ) {
     this.routeSubscription = activatedRoute.paramMap
       .subscribe((params: ParamMap) => {
-        this.src = params.get('file');
-        this.category = params.get('category');
-        this.imageDescription = undefined;
-        this.imageUrl = `assets/Kirchenchronik_main/${this.category}/${this.src}`;
-        this.imageUrlStyle = sanitizer.bypassSecurityTrustStyle(`url('${this.imageUrl}')`);
-        this.documentUrlResource = sanitizer.bypassSecurityTrustResourceUrl(this.imageUrl);
-        if (this.src && this.data && this.category) {
-          const allFiles = this.data[this.category].images;
-          const entry: ImageInfo | undefined = allFiles.find(x => x.name === this.src);
-          if (entry) {
-            this.assetType = entry.type;
-          }
-        }
-
-
-        if (this.src && this.data && this.category) {
-          this.imageDescription = this.getDescription(this.src, this.data[this.category].images);
-          this.pageInfo = this.getPageInfo(this.src, this.data[this.category].images);
-        }
+        this.detailHidden = true;
         this.cdr.markForCheck();
+        setTimeout(() => {
+          this.src = params.get('file');
+          this.category = params.get('category');
+          this.imageDescription = undefined;
+          this.imageUrl = `assets/Kirchenchronik_main/${this.category}/${this.src}`;
+          this.imageUrlStyle = sanitizer.bypassSecurityTrustStyle(`url('${this.imageUrl}')`);
+          this.documentUrlResource = sanitizer.bypassSecurityTrustResourceUrl(this.imageUrl);
+          if (this.src && this.data && this.category) {
+            const allFiles = this.data[this.category].images;
+            const entry: ImageInfo | undefined = allFiles.find(x => x.name === this.src);
+            if (entry) {
+              this.assetType = entry.type;
+            }
+          }
+
+          if (this.src && this.data && this.category) {
+            this.imageDescription = this.getDescription(this.src, this.data[this.category].images);
+            this.pageInfo = this.getPageInfo(this.src, this.data[this.category].images);
+          }
+
+          this.detailHidden = false;
+          this.cdr.markForCheck();
+        }, 250);
       });
   }
 
