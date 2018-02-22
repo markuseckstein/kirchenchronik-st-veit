@@ -1,0 +1,7 @@
+{
+  "name": "kirchenchronik-st-veit",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "electron.js",
+  "private": true
+}

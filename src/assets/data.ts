@@ -3,11 +3,6 @@ export const imageData = JSON.parse(`
   "010 kirchliche Baumassnahmen und Renovierungen": {
     "images": [
       {
-        "name": "000_Baumassnahmen_Gemeinde_Altenthann.pdf",
-        "thumbName": "000_Baumassnahmen_Gemeinde_Altenthann.pdf.png",
-        "type": "pdf"
-      },
-      {
         "name": "001-Kirche_2017.jpg",
         "thumbName": "001-Kirche_2017.jpg",
         "description": "St. Veit-Kirche Juli 2012",
@@ -275,12 +270,18 @@ export const imageData = JSON.parse(`
       {
         "name": "045-22-IMG_2454.jpg",
         "thumbName": "045-22-IMG_2454.jpg",
-        "description": "Gemeindehaus mit Pfarrhaus, 1991",
+        "description": "Gemeindehaus mit Pfarrhaus, 1993",
+        "type": "image"
+      },
+      {
+        "name": "045b-24-IMG_2456.jpg",
+        "thumbName": "045b-24-IMG_2456.jpg",
         "type": "image"
       },
       {
         "name": "046-01-Gemeindehaus 003.jpg",
         "thumbName": "046-01-Gemeindehaus 003.jpg",
+        "description": "2007",
         "type": "image"
       },
       {
@@ -299,11 +300,6 @@ export const imageData = JSON.parse(`
         "name": "051-Pfarrhaus 004.jpg",
         "thumbName": "051-Pfarrhaus 004.jpg",
         "description": "Pfarrhaus Altenthann 2007",
-        "type": "image"
-      },
-      {
-        "name": "052-24-IMG_2456.jpg",
-        "thumbName": "052-24-IMG_2456.jpg",
         "type": "image"
       },
       {
@@ -326,7 +322,7 @@ export const imageData = JSON.parse(`
       {
         "name": "057a_Kirchenrenovierung (2).jpg",
         "thumbName": "057a_Kirchenrenovierung (2).jpg",
-        "description": "Kirchensanierung 2005 -  Von li. Heinz Fink, Reinhard Distler, Thomas Billhöfer, Georg Billhöfer, Uwe Hollweck, Horst Distler, Eberhard Wiedenmann",
+        "description": "Kirchenrestaurierung 1995: Von li. Heinz Fink, Reinhard Distler, Thomas Billhöfer, Georg Billhöfer, Uwe Hollweck, Horst Distler, Eberhard Wiedenmann",
         "type": "image"
       },
       {
@@ -338,13 +334,13 @@ export const imageData = JSON.parse(`
       {
         "name": "057a_Kirchenrenovierung (4).jpg",
         "thumbName": "057a_Kirchenrenovierung (4).jpg",
-        "description": "von links: Helmut Hiller, Reinhard Distler, Georg Billhöfer, Claudia Billhöfer",
+        "description": "Kirchenrestaurierung 1995: von links: Helmut Hiller, Reinhard Distler, Georg Billhöfer, Claudia Billhöfer",
         "type": "image"
       },
       {
         "name": "057a_Kirchenrenovierung (4a).jpg",
         "thumbName": "057a_Kirchenrenovierung (4a).jpg",
-        "description": "Kirchensanierung 2005",
+        "description": "Kirchenrestaurierung 1995",
         "type": "image"
       },
       {
@@ -420,6 +416,12 @@ export const imageData = JSON.parse(`
         "type": "image"
       },
       {
+        "name": "066b-32-IMG_2831.jpg",
+        "thumbName": "066b-32-IMG_2831.jpg",
+        "description": "Wiedereinweihung der St. Veit-Kirche am 2.12.1995 nach abgeschlossener Restaurierung",
+        "type": "image"
+      },
+      {
         "name": "067-30-IMG_2829.jpg",
         "thumbName": "067-30-IMG_2829.jpg",
         "description": "Kirchenführer erscheint 1996",
@@ -429,12 +431,6 @@ export const imageData = JSON.parse(`
         "name": "068-31-IMG_2830.jpg",
         "thumbName": "068-31-IMG_2830.jpg",
         "description": "Am 1. 12.1996 wird neuer Kirchenführer vorgestellt",
-        "type": "image"
-      },
-      {
-        "name": "069-32-IMG_2831.jpg",
-        "thumbName": "069-32-IMG_2831.jpg",
-        "description": "Wiedereinweihung der St. Veit-Kirche am 2.12.1995 nach abgeschlossener Restaurierung",
         "type": "image"
       },
       {
@@ -626,6 +622,7 @@ export const imageData = JSON.parse(`
       {
         "name": "106-Kirchgarten 002.jpg",
         "thumbName": "106-Kirchgarten 002.jpg",
+        "description": "Kirchgarten vor der Neugestaltung 2008",
         "type": "image"
       },
       {
@@ -655,6 +652,7 @@ export const imageData = JSON.parse(`
       {
         "name": "111_Kindergarten.JPG",
         "thumbName": "111_Kindergarten.JPG",
+        "description": "Am Kindergarten 'St. Veit', Schwarzenbruck-Altenthann, Mühlbergstraße 8, wurde ein Hort angebaut -  2017",
         "type": "image"
       },
       {
@@ -667,14 +665,9 @@ export const imageData = JSON.parse(`
   "020 Burgthann entwickelt sich zu einer eigenen Kirchengemeinde": {
     "images": [
       {
-        "name": "0 Burgthann entwickelt sich zu einer eigenen Kirchengemeinde.pdf",
-        "thumbName": "0 Burgthann entwickelt sich zu einer eigenen Kirchengemeinde.pdf.png",
-        "type": "pdf"
-      },
-      {
         "name": "1-IMG_2814.JPG",
         "thumbName": "1-IMG_2814.JPG",
-        "description": "Protokoll Pfr. Lodter:  Burgkapelle Burgthann",
+        "description": "Protokoll Pfr. Lodter",
         "type": "image"
       },
       {
@@ -691,7 +684,7 @@ export const imageData = JSON.parse(`
       {
         "name": "3-IMG_2816.JPG",
         "thumbName": "3-IMG_2816.JPG",
-        "description": "AWO errichtet ein Altenheim in Mimberg 1953 und vergrössert 1957",
+        "description": "AWO errichtete 1952 in Mimberg ein Altenheim",
         "type": "image"
       },
       {
@@ -770,7 +763,6 @@ export const imageData = JSON.parse(`
       {
         "name": "05-05-09-IMG_2769.JPG",
         "thumbName": "05-05-09-IMG_2769.JPG",
-        "description": "Administratoren von Grundherrsche Familienstiftung",
         "type": "image"
       },
       {
@@ -782,7 +774,7 @@ export const imageData = JSON.parse(`
       {
         "name": "07-07-11-IMG_2771.JPG",
         "thumbName": "07-07-11-IMG_2771.JPG",
-        "description": "Friedrich v. Grundherr ist Administrator von 1990 bis 2010. Er ist Architekt und wohnt in Krailing b . München",
+        "description": "Friedrich v. Grundherr ist Administrator von 1990 bis 2010.",
         "type": "image"
       },
       {
@@ -824,13 +816,11 @@ export const imageData = JSON.parse(`
       {
         "name": "14-14-08-IMG_2768.JPG",
         "thumbName": "14-14-08-IMG_2768.JPG",
-        "description": "Caroline von Grundherr",
         "type": "image"
       },
       {
         "name": "15-15-25-IMG_2857.JPG",
         "thumbName": "15-15-25-IMG_2857.JPG",
-        "description": "Traueranzeige Caroline v. Grundherr",
         "type": "image"
       },
       {
@@ -886,12 +876,6 @@ export const imageData = JSON.parse(`
         "type": "image"
       },
       {
-        "name": "24-34-35-IMG_2892.JPG",
-        "thumbName": "24-34-35-IMG_2892.JPG",
-        "description": "Patronat der Familie v. Grundherr endet am 31.12.2000 -  Zeitungartikel Teil 2",
-        "type": "image"
-      },
-      {
         "name": "25-28-20-IMG_2844.JPG",
         "thumbName": "25-28-20-IMG_2844.JPG",
         "description": "Schloß Weiherhaus: Das Patronat der Familie v. Grundherr endet am 31.12.2000 - v. links Hans Abraham, Fritz Holzammer, Pfr. Klaus Mendel, Diakon Pühler",
@@ -919,6 +903,12 @@ export const imageData = JSON.parse(`
         "name": "29-32-2000-11-05_Fest zum Abschluss des Kirchenpatronats.JPG",
         "thumbName": "29-32-2000-11-05_Fest zum Abschluss des Kirchenpatronats.JPG",
         "description": "Kirchliche Mitarbeiter werden am 5.11.2000 von Familie v. Grundherr ins Schloß Weiherhaus eingeladen. Das Patronat endet am 31.12.2000",
+        "type": "image"
+      },
+      {
+        "name": "29-33-IMG_2892.JPG",
+        "thumbName": "29-33-IMG_2892.JPG",
+        "description": "Patronat der Familie v. Grundherr endet am 31.12.2000 -  Zeitungartikel Teil 2",
         "type": "image"
       },
       {
@@ -983,7 +973,7 @@ export const imageData = JSON.parse(`
       }
     ]
   },
-  "040 Pfarrer, Vikare, Diakone, Mesner, ehrenamtliche Helfer": {
+  "040 Pfarrer, Diakone, Mesner, ehrenamtliche Helfer": {
     "images": [
       {
         "name": "01-01-Pfarrertafel 02.JPG",
@@ -1262,7 +1252,7 @@ export const imageData = JSON.parse(`
       {
         "name": "48-48-Kronenkreuz und Lutherrose.JPG",
         "thumbName": "48-48-Kronenkreuz und Lutherrose.JPG",
-        "description": "29 Okt. 2006",
+        "description": "29. Okt. 2006",
         "type": "image"
       },
       {
@@ -1330,7 +1320,7 @@ export const imageData = JSON.parse(`
       {
         "name": "02-02-IMG_3036.JPG",
         "thumbName": "02-02-IMG_3036.JPG",
-        "description": "Verabschiedung Pfr. Hermann Lehr in Altenthann 1983 im Gasthaus 'Weisses Kreuz'.  V. li.: Caroline v. Grundherr, Pfarrer Lehr, Frau Lehr",
+        "description": "Verabschiedung Pfr. Hermann Lehr in Altenthann 1983 im Gasthaus 'Weißes Kreuz'.  V. li.: Caroline v. Grundherr, Pfarrer Lehr, Frau Lehr",
         "type": "image"
       },
       {
@@ -1360,19 +1350,19 @@ export const imageData = JSON.parse(`
       {
         "name": "07-07-IMG_2463.JPG",
         "thumbName": "07-07-IMG_2463.JPG",
-        "description": "Verabschiedung Pfarramtsführer Christoph Luthardt beim Gemeindefest in Altenthann mit Ehefrau,  1999",
+        "description": "Verabschiedung Pfarramtsführer Luthardt mit Ehefrau Christl, beim Gemeindefest in Altenthann 1999",
         "type": "image"
       },
       {
         "name": "08-08-IMG_2548.JPG",
         "thumbName": "08-08-IMG_2548.JPG",
-        "description": "Verabschiedung Pfarrer Luthardt beim Gemeindefest in Altenthann 1999 -  re. Bürgermeister Reh Schwarzenbruck",
+        "description": "Verabschiedung Pfarrer Luthardt beim Gemeindefest in Altenthann 1999 - li. Bürgermeister Reh Schwarzenbruck",
         "type": "image"
       },
       {
         "name": "09-09-IMG_2462.JPG",
         "thumbName": "09-09-IMG_2462.JPG",
-        "description": "Verabschiedung Pfr. Christoph Luthardt beim Gemeindefest in Altenthann 1999. - v. li. Charlotte Koch, Ehepaar Luthardt",
+        "description": "Verabschiedung Pfarrer Luthardt beim Gemeindefest in Altenthann 1999. - v. li. Charlotte Koch, Ehepaar Luthardt",
         "type": "image"
       },
       {
@@ -1384,7 +1374,7 @@ export const imageData = JSON.parse(`
       {
         "name": "11-11-IMG_2510.JPG",
         "thumbName": "11-11-IMG_2510.JPG",
-        "description": "Gemeindefest in Altenthann 1999",
+        "description": "1999",
         "type": "image"
       },
       {
@@ -1462,7 +1452,7 @@ export const imageData = JSON.parse(`
       {
         "name": "24-24-16-Verabschiedung2011 014.JPG",
         "thumbName": "24-24-16-Verabschiedung2011 014.JPG",
-        "description": "Verabschiedung Pfarramtsführer Klaus Mendel  23.1.2011 im Gemeindehaus Altenthann - re. Ulrike Bendiks",
+        "description": "Verabschiedung Pfarramtsführer Klaus Mendel  23.1.2011 - re. Ulrike Bendiks, Wolfgang u. Ossi Hagen, Martha Hengelein, Charlotte Koch",
         "type": "image"
       },
       {
@@ -1474,19 +1464,19 @@ export const imageData = JSON.parse(`
       {
         "name": "26-26-Verabschiedung_Pfarrer_Mendel_23012011.JPG",
         "thumbName": "26-26-Verabschiedung_Pfarrer_Mendel_23012011.JPG",
-        "description": "Von links nach rechts: Dekan Breu, Pfarrer Klaus Mendel, Frau Mendel, Pfarrer Gottfried Winning, Pfarrer Dr. Stefan Gehrig. Verabschiedung am 23.1.2011 in Altenthann, am 20.2.2011 in Burgthann",
+        "description": "Von li.: nach re.: Dekan Breu, Pfarrer Klaus Mendel, Sonja Mendel, Pfarrer Gottfried Winning, Pfarrer Dr. Stefan Gehrig. Verabschiedung am 23.1.2011 in Altenthann, am 20.2.2011 in Burgthann",
         "type": "image"
       },
       {
         "name": "27-27-IMG_2495.JPG",
         "thumbName": "27-27-IMG_2495.JPG",
-        "description": "Einführung Pfr. Winning (in Altenthann von Sept. 2002 bis Okt. 2006)",
+        "description": "Einführungs-Gottesdienst Pfr. Winning (in Altenthann von Sept. 2002 bis Okt. 2006)",
         "type": "image"
       },
       {
         "name": "28-28-IMG_2497 (2).JPG",
         "thumbName": "28-28-IMG_2497 (2).JPG",
-        "description": "Einführungs-Gottesdienst  Pfr. Winning Sept. 2002:   Zweiter von links: Dekan Huschke, Fr. Winning, Pfr. Winning, Pfarramtsführer Pfr. Mendel",
+        "description": "Einführung Pfr. Winning Sept. 2002:  Zweiter v. li.: Dekan Huschke, Rosemarie Winning, Pfr. Gottfried Winning, Pfarramtsführer Klaus Mendel",
         "type": "image"
       },
       {
@@ -1527,25 +1517,25 @@ export const imageData = JSON.parse(`
       {
         "name": "34-34-10-Verabschiedung 003.JPG",
         "thumbName": "34-34-10-Verabschiedung 003.JPG",
-        "description": "Verabschiedung Pfarrerin Sabine Weingärtner, 3.6.2012",
+        "description": "Verabschiedung Pfarrerin Sabine Weingärtner, 3.6.2012 - vorne: Pfarrerinnen N. Lösel, S. Weingärtner, Chr. Schlenk",
         "type": "image"
       },
       {
         "name": "35-35-11-Verabschiedung 004.JPG",
         "thumbName": "35-35-11-Verabschiedung 004.JPG",
-        "description": "Maximilian v. Grundherr verabschiedet Pfarrerin Sabine Weingärtner am 3.6. 2012 - vorne Pfr. N. Lösel, Pfr. S. Weingärtner, Pfarrerin Schlenk,  Bürgermeister Ernstberger Pfr. Winkler",
-        "type": "image"
-      },
-      {
-        "name": "36-36-13-Verabschiedung 019.JPG",
-        "thumbName": "36-36-13-Verabschiedung 019.JPG",
-        "description": "Verabschiedung 3. Juni 2012, Pfarrerin Sabine Weingärtner mit Michael Behrendt rechts",
+        "description": "Maximilian v. Grundherr verabschiedet Pfarrerin  Weingärtner am 3.6. 2012 - vorne Pfr. Lösel, Pfr. Weingärtner, Pfarrerin Schlenk,  Bürgermeister Ernstberger, Pfr. Winkler",
         "type": "image"
       },
       {
         "name": "37-37-Verabschiedung 018.JPG",
         "thumbName": "37-37-Verabschiedung 018.JPG",
         "description": "Vertreter der Vereine verabschieden sich von Pfr. Weingärtner:  v. li.: Bernd Bogner, Barbara Ipta, Friedrich v. Grundherr, Günther Blos, Bernd Holzenleuchter, Stefan Beyer, re. Pfr. Nicole Lösel",
+        "type": "image"
+      },
+      {
+        "name": "37-38-13-Verabschiedung 019.JPG",
+        "thumbName": "37-38-13-Verabschiedung 019.JPG",
+        "description": "Verabschiedung 3. Juni 2012, Pfarrerin Sabine Weingärtner mit Michael Behrendt rechts",
         "type": "image"
       },
       {
@@ -1575,13 +1565,13 @@ export const imageData = JSON.parse(`
       {
         "name": "42-42-06-Erntedank 2011 010.JPG",
         "thumbName": "42-42-06-Erntedank 2011 010.JPG",
-        "description": "Einführung Pfarramtsführer Bernhard Winkler am Erntedank-Gottesdienst 2.10.2011 mit Stehempfang vor der Kirche. Mitte: Frau Winkler",
+        "description": "Einführung Pfr. Bernhard Winkler am Erntedank-Gottesdienst 2.10.2011 mit Stehempfang vor der Kirche. Mitte: Frau Winkler",
         "type": "image"
       },
       {
         "name": "43-43-07-Erntedank Empfang 2011 011.JPG",
         "thumbName": "43-43-07-Erntedank Empfang 2011 011.JPG",
-        "description": "Einführung Pfarramtsführer Bernhard Winkler am Erntedankgottesdienst 2.10.2011 mit Stehempfang vor der Kirche. Mitte: Ehepaar Winkler mit Sohn Felix",
+        "description": "Einführung Pfr. Bernhard Winkler am Erntedankgottesdienst 2.10.2011 mit Stehempfang vor der Kirche. Mitte: Ehepaar Winkler mit Sohn",
         "type": "image"
       },
       {
@@ -1605,7 +1595,7 @@ export const imageData = JSON.parse(`
       {
         "name": "47-47-P2080004.JPG",
         "thumbName": "47-47-P2080004.JPG",
-        "description": "Verabschiedung Pfarrer Benjamin Schimmel am 8.2.2015 in Altenthann - Stehempfang im Gemeindehaus, re. Ehepaar Schimmel mit Kindern",
+        "description": "Verabschiedung Pfr. Benjamin Schimmel am 8.2.2015 in Altenthann - Stehempfang im Gemeindehaus, re. Ehepaar Schimmel mit Kindern, li.: Fritz Holzammer, Charlotte Koch",
         "type": "image"
       },
       {
@@ -1624,12 +1614,6 @@ export const imageData = JSON.parse(`
         "name": "50-50-P3150026.JPG",
         "thumbName": "50-50-P3150026.JPG",
         "description": "Einführungsgottesdienst von Pfarrer Tobias Treu am 15. März 2015",
-        "type": "image"
-      },
-      {
-        "name": "51-51-03-P3150036.JPG",
-        "thumbName": "51-51-03-P3150036.JPG",
-        "description": "Einführung Pfr. Treu am 15.3.2015:",
         "type": "image"
       },
       {
@@ -1683,7 +1667,7 @@ export const imageData = JSON.parse(`
       {
         "name": "60-IMG_3169.JPG",
         "thumbName": "60-IMG_3169.JPG",
-        "description": "Posaunenchorleiter Rainer Kraußer verabschiedet sich von Pfr. Treu und seiner Familie",
+        "description": "Posaunenchorleiter Rainer Kraußer verabschiedet sich von Pfr. Treu und seiner Familie, re. Monika Brandmann, Marianne Kaiser",
         "type": "image"
       },
       {
@@ -1695,7 +1679,7 @@ export const imageData = JSON.parse(`
       {
         "name": "62-IMG_3178.JPG",
         "thumbName": "62-IMG_3178.JPG",
-        "description": "Frau Treu verabschiedet sich mit einem selbst verfassten Gedchicht",
+        "description": "Frau Treu verabschiedet sich mit einem selbst verfassten Gedicht",
         "type": "image"
       }
     ]
@@ -1723,7 +1707,7 @@ export const imageData = JSON.parse(`
       {
         "name": "04-06-IMG_3607.jpg",
         "thumbName": "04-06-IMG_3607.jpg",
-        "description": "St. Veit-Kirche und Mesnerhaus Juli 2012",
+        "description": "St. Veit-Kirche Juli 2012",
         "type": "image"
       },
       {
@@ -1753,14 +1737,14 @@ export const imageData = JSON.parse(`
         "type": "pdf"
       },
       {
-        "name": "08-1957_Gemeindeblatt 02.bmp.jpg",
-        "thumbName": "08-1957_Gemeindeblatt 02.bmp.jpg",
+        "name": "08-1957_Gemeindeblatt 02.jpg",
+        "thumbName": "08-1957_Gemeindeblatt 02.jpg",
         "type": "image"
       },
       {
         "name": "09-Der Gemeindegruß hat seit 2017 ein neues Format.jpg",
         "thumbName": "09-Der Gemeindegruß hat seit 2017 ein neues Format.jpg",
-        "description": "Das Gemeindeblatt, inzwischen Gemeindegruß hat sich immer wieder verändert. Im Dezember 2016 erschien er in einem neuen etwas größeren Format",
+        "description": "Das Gemeindeblatt, inzwischen Gemeindegruß hat sich immer wieder verändert. Im Dezember 2016 erscheint er in einem neuen etwas größeren Format.",
         "type": "image"
       },
       {
@@ -1777,7 +1761,7 @@ export const imageData = JSON.parse(`
       {
         "name": "12-08-Weltgebetstag 2009 006.jpg",
         "thumbName": "12-08-Weltgebetstag 2009 006.jpg",
-        "description": "Weltgebetstag 2009, Lydia Müller, Lore Schaudig, Frau Vitzthum",
+        "description": "Weltgebetstag 2009, v. li.:  Lydia Müller, Lore Schaudig, Anna Vitzthum",
         "type": "image"
       },
       {
@@ -1795,25 +1779,25 @@ export const imageData = JSON.parse(`
       {
         "name": "15-IMG_1356.jpg",
         "thumbName": "15-IMG_1356.jpg",
-        "description": "Karfreitagsweg von Winkelhaid nach Altenthann, Station: Kreuz tragen, v.li. Heidi Prohaska, Werner Eckstein",
+        "description": "Karfreitagsweg  Winkelhaid - Altenthann, 'Station: Kreuz tragen', v.li. Heidi Prohaska, Werner Eckstein",
         "type": "image"
       },
       {
         "name": "16-01-ostern 2009 004.jpg",
         "thumbName": "16-01-ostern 2009 004.jpg",
-        "description": "Osterfrühstück 2009 im Gemeindehaus",
+        "description": "Nach der Osternacht, Frühstück im Gemeindehaus 2009",
         "type": "image"
       },
       {
         "name": "17-IMG_20150525_113452.jpg",
         "thumbName": "17-IMG_20150525_113452.jpg",
-        "description": "Pfingstmontag Gottesdienst an der Sophienquelle mit Pfr. Winkler und Posaunenchor",
+        "description": "Pfingstmontag Gottesdienst an der Sophienquelle mit Pfr. Winkler und Posaunenchor, 2015",
         "type": "image"
       },
       {
         "name": "18-21-25 Jahre Mesnerdienst 005.jpg",
         "thumbName": "18-21-25 Jahre Mesnerdienst 005.jpg",
-        "description": "Pfr. Sabine Weingärtner traf mit der Kerwa-Jugend die Vereinbarung, dass der Gottesdienstbesuch zur Kirchweih gehört. 2012",
+        "description": "Pfr. Sabine Weingärtner hatte die Kärwa-Jugend persönlich zum Kirchweih-Gottesdienst eingeladen. Dabei ließ sie sich zu einem Altenthanner Brauch am Kirchweihmontag überrreden.",
         "type": "image"
       },
       {
@@ -1825,67 +1809,67 @@ export const imageData = JSON.parse(`
       {
         "name": "20-Kirwaburschen2013 001.jpg",
         "thumbName": "20-Kirwaburschen2013 001.jpg",
-        "description": "Kirchweihgottesdienst mit Kerwaburschen und -madla 2012",
+        "description": "Kirchweihgottesdienst mit Kärwaburschen und -madla 2013",
         "type": "image"
       },
       {
         "name": "21-17-Waschtrogrennen1.jpg",
         "thumbName": "21-17-Waschtrogrennen1.jpg",
-        "description": "",
+        "description": "Kirchweihmontag 2009 Sautrogrennen",
         "type": "image"
       },
       {
         "name": "22-Waschtrogrennen5.jpg",
         "thumbName": "22-Waschtrogrennen5.jpg",
-        "description": "Kirchweih 2009",
+        "description": "Kirchweihmontag 2009",
         "type": "image"
       },
       {
         "name": "23-16-Waschtrogrennen2.jpg",
         "thumbName": "23-16-Waschtrogrennen2.jpg",
-        "description": "Kirchweih 2009, Sautrogrennen Pfarrerin Sabine Weingärtner, Evelyn Schmidt",
+        "description": "Kirchweihmontag 2009, Sautrogrennen Pfarrerin Sabine Weingärtner, Evelyn Schmidt",
         "type": "image"
       },
       {
         "name": "24-2009_Kärwa_Sautrog.jpg",
         "thumbName": "24-2009_Kärwa_Sautrog.jpg",
+        "description": "Kirchweihmontag 2009",
         "type": "image"
-      },
-      {
-        "name": "25-2009_Kärwa-Sautrogrennen.mp4",
-        "thumbName": "25-2009_Kärwa-Sautrogrennen.mp4.png",
-        "type": "video"
       },
       {
         "name": "25-2009_Kärwa_Schubkarre.jpg",
         "thumbName": "25-2009_Kärwa_Schubkarre.jpg",
+        "description": "Kirchweihmontag 2009",
         "type": "image"
       },
       {
         "name": "26-15-Waschtrogrennen4.jpg",
         "thumbName": "26-15-Waschtrogrennen4.jpg",
-        "description": "Kirchweih 2009,  Bernd Nerreter, Pfarrerin Sabine Weingärtner, Johannes Schmid",
+        "description": "Kirchweihmontag 2009: Bernd Nerreter, Pfarrerin Sabine Weingärtner, Johannes Schmid, bei der Siegerehrung",
         "type": "image"
       },
       {
         "name": "27-2009_Kärwa.jpg",
         "thumbName": "27-2009_Kärwa.jpg",
+        "description": "Kirchweihjugend",
         "type": "image"
       },
       {
         "name": "28-2010_Kärwa.jpg",
         "thumbName": "28-2010_Kärwa.jpg",
+        "description": "Kirchweihjugend",
         "type": "image"
       },
       {
         "name": "29-2016-06_Kärwa_Baum.jpg",
         "thumbName": "29-2016-06_Kärwa_Baum.jpg",
+        "description": "Kirchweih Altenthann 2016",
         "type": "image"
       },
       {
         "name": "30-Kärwaburschen20171491.jpg",
         "thumbName": "30-Kärwaburschen20171491.jpg",
-        "description": "Kirchweihgottesdienst 2017 -  vorne v. rechts: Uli Bendiks, Ehepaar Meier (Ruhestands-Pfarrer aus Altdorf)",
+        "description": "Kirchweihgottesdienst 2017 -  vorne v. rechts: Uli Bendiks, Ehepaar Meier (Pfarrer i. Ruhestand aus Altdorf)",
         "type": "image"
       },
       {
@@ -1897,7 +1881,12 @@ export const imageData = JSON.parse(`
       {
         "name": "32-Kärwaburschen2017_1489.jpg",
         "thumbName": "32-Kärwaburschen2017_1489.jpg",
-        "description": "Kirwaburschen und -madla 2017 nach dem Gottesdienst",
+        "description": "Kirwaburschen und -madla 2017 nach dem Gottesdienst, mit Pfr. Treu",
+        "type": "image"
+      },
+      {
+        "name": "33-IMG_0485_20160703.JPG",
+        "thumbName": "33-IMG_0485_20160703.JPG",
         "type": "image"
       },
       {
@@ -1913,14 +1902,14 @@ export const imageData = JSON.parse(`
         "type": "image"
       },
       {
-        "name": "34a-Thanngraben 2010 004.jpg",
-        "thumbName": "34a-Thanngraben 2010 004.jpg",
+        "name": "34a-12-Thanngraben 2008 005.jpg",
+        "thumbName": "34a-12-Thanngraben 2008 005.jpg",
         "description": "",
         "type": "image"
       },
       {
-        "name": "34b-12-Thanngraben 2008 005.jpg",
-        "thumbName": "34b-12-Thanngraben 2008 005.jpg",
+        "name": "34b-Thanngraben 2010 004.jpg",
+        "thumbName": "34b-Thanngraben 2010 004.jpg",
         "description": "",
         "type": "image"
       },
@@ -1981,11 +1970,13 @@ export const imageData = JSON.parse(`
       {
         "name": "45-Dankeschön_2013 003.jpg",
         "thumbName": "45-Dankeschön_2013 003.jpg",
+        "description": "Dankeschön-Abend 2013: v. li. Gerdi Maußner, Lona Schötz, Christa Söhnlein, Marga Maußner, Markus Eckstein",
         "type": "image"
       },
       {
         "name": "46-2012_09_21_Mitarbeiterdank 007.jpg",
         "thumbName": "46-2012_09_21_Mitarbeiterdank 007.jpg",
+        "description": "Sophie und Lena Billhöfer 2012",
         "type": "image"
       },
       {
@@ -2009,6 +2000,7 @@ export const imageData = JSON.parse(`
       {
         "name": "50-Erntedank 2011 012.jpg",
         "thumbName": "50-Erntedank 2011 012.jpg",
+        "description": "Erntedankfest 2011",
         "type": "image"
       },
       {
@@ -2020,12 +2012,13 @@ export const imageData = JSON.parse(`
       {
         "name": "52-IMG_2925.jpg",
         "thumbName": "52-IMG_2925.jpg",
+        "description": "Volkstrauertag 2017",
         "type": "image"
       },
       {
         "name": "53-14-Volkstrauertag 2008 006.jpg",
         "thumbName": "53-14-Volkstrauertag 2008 006.jpg",
-        "description": "Volkstrauertag 2008",
+        "description": "Volkstrauertag 2008, Männergesangverein und Feuerwehr",
         "type": "image"
       },
       {
@@ -2043,6 +2036,7 @@ export const imageData = JSON.parse(`
       {
         "name": "56-Lancken  004.jpg",
         "thumbName": "56-Lancken  004.jpg",
+        "description": "Mitglieder unserer Patengemeinde Lancken (Mecklenburg-Vorpommern), besuchen unsere Kirchengemeinde Altenthann-Burgthann 18.10.2009",
         "type": "image"
       },
       {
@@ -2066,6 +2060,7 @@ export const imageData = JSON.parse(`
       {
         "name": "59-Advent 2014 005.jpg",
         "thumbName": "59-Advent 2014 005.jpg",
+        "description": "Weihnachtsbasar vor der Kirche am 30.11.2014, li. Max - re. Moritz Meyer",
         "type": "image"
       },
       {
@@ -2089,16 +2084,19 @@ export const imageData = JSON.parse(`
       {
         "name": "64-Waldweihnacht 2009 009.jpg",
         "thumbName": "64-Waldweihnacht 2009 009.jpg",
+        "description": "Waldweihnacht  2009",
         "type": "image"
       },
       {
         "name": "65-Krippenspiel2017 1.jpg",
         "thumbName": "65-Krippenspiel2017 1.jpg",
+        "description": "Krippenspiel am Heiligen Abend 2017",
         "type": "image"
       },
       {
         "name": "66-Krippenspiel2017 2.jpg",
         "thumbName": "66-Krippenspiel2017 2.jpg",
+        "description": "Krippenspiel am Heiligen Abend 2017",
         "type": "image"
       }
     ]
@@ -2114,13 +2112,13 @@ export const imageData = JSON.parse(`
       {
         "name": "02-IMG_3058.JPG",
         "thumbName": "02-IMG_3058.JPG",
-        "description": "Konfirmation in Altenthann am 14.4.1991- v. li.: Markus Heiden, Wolfgang Schuster, Petra Rabel, Sonja Meyer, Ulrike Söhnlein, Petra Redwitz, Astrid Munkert, Sandra Frisch, Martina Kaiser, Daniel Nerreter, Stefan Schmidt",
+        "description": "Konfirmation 1991, v. li.: Markus Heiden, Wolfgang Schuster, Petra Rabel, Sonja Meyer, Ulrike Söhnlein, Petra Redwitz, Astrid Munkert, Sandra Frisch, Martina Kaiser, Daniel Nerreter, Stefan Schmidt",
         "type": "image"
       },
       {
         "name": "03-Silberne Konfirmation Liselotte Eckstein 1992-07-12.JPG",
         "thumbName": "03-Silberne Konfirmation Liselotte Eckstein 1992-07-12.JPG",
-        "description": "Silberne Konfirmation am 12.7.1992 in Altenthann, . v. li.: Ute Johnson, Renate Rabel, Inge Lang, Hildegard Eckersberger, Ottmar Schmidt, Isolde Liebel, Richard Billhöfer, Heidi Lange, Annette Hafner, Liselotte Eckstein, hinten li. Gerhard Wagner, Manfred Eckstein, Oberlehrer Georg Schoemann, Theo Herold, Reinhold Blos, Hans Herold, Pfr. Lehr",
+        "description": "Silberne Konfirmation am 12.7.1992 in Altenthann, . v. li.: Ute Johnston, Renate Rabel, Inge Lang, Hildegard Eckersberger, Ottmar Schmidt, Isolde Liebel, Richard Billhöfer, Heidi Lange, Annette Hafner, Liselotte Eckstein, hinten li. Gerhard Wagner, Manfred Eckstein, Oberlehrer Georg Schoemann, Theo Herold, Reinhold Blos, Hans Herold, Pfr. Lehr",
         "type": "image"
       },
       {
@@ -2138,19 +2136,18 @@ export const imageData = JSON.parse(`
       {
         "name": "06-03-DSC_1339Gold.JPG",
         "thumbName": "06-03-DSC_1339Gold.JPG",
-        "description": "Jubelkonfirmation 2008",
+        "description": "Goldene Konfirmation 2008 mit Pfr. Winning, bekannt sind: hinten li.: Fritz Holzammer, Hermann Bräunlein, Konrad Schötz, Gerhard Meyer, Walter Pölloth, Georg Koch, vorne rechts: Annemarie Wagner",
         "type": "image"
       },
       {
         "name": "07-Konfirmation 2008 001.JPG",
         "thumbName": "07-Konfirmation 2008 001.JPG",
-        "description": "Konfirmanden 2008 mit Pfr. Winning",
+        "description": "Konfirmanden 2008: Henrik Wiedenmann, Mike Holzenleuchter, Steffen Vestner, Frederik Zöls, mit Pfr. Winning",
         "type": "image"
       },
       {
         "name": "08-06-Jubelkonfirmation 2008 006.JPG",
         "thumbName": "08-06-Jubelkonfirmation 2008 006.JPG",
-        "description": "Jubelkonfirmation 2008",
         "type": "image"
       },
       {
@@ -2168,7 +2165,7 @@ export const imageData = JSON.parse(`
       {
         "name": "11-01-Konfi 2009 001.JPG",
         "thumbName": "11-01-Konfi 2009 001.JPG",
-        "description": "Konfirmation 2009",
+        "description": "Konfirmation 2009: Theresa Meier, Katharina Eberhard, Johannes Schmidt, Pauline Brandmann, Julia Lutz, Katrin Koch, Tanja Nicklas, Linda Holzenleuchter, mit Pfr. Weingärtner",
         "type": "image"
       },
       {
@@ -2186,6 +2183,7 @@ export const imageData = JSON.parse(`
       {
         "name": "14-08-Jubelkonfirmation 2011 009.JPG",
         "thumbName": "14-08-Jubelkonfirmation 2011 009.JPG",
+        "description": "Jubelkonfirmation 2011",
         "type": "image"
       },
       {
@@ -2197,13 +2195,13 @@ export const imageData = JSON.parse(`
       {
         "name": "16-11-Konfirmanden 2011 004.JPG",
         "thumbName": "16-11-Konfirmanden 2011 004.JPG",
-        "description": "Konfirmanden 2011 mit Pfarrerin Sabine Weingärtner",
+        "description": "Konfirmanden 2011, v. li.: Kai Vestner, Felix Weinzierl, Dennis Girbringer, Marco Nicklas, Antonia Zöls, Kamilla Leder und Svenja Beyer, mit Pfarrerin Sabine Weingärtner",
         "type": "image"
       },
       {
         "name": "17-09-Jubelkonfirmation 2011 013.JPG",
         "thumbName": "17-09-Jubelkonfirmation 2011 013.JPG",
-        "description": "Silberne Konfirmation 2011, Pfarrerin Sabine Weingärtner, Markus Rüger, unbekannt, Helmut Schmidt, unbekannt",
+        "description": "Silberne Konfirmation 2011, Pfarrerin Sabine Weingärtner, Markus Rüger, Andrea Wenderling, Helmut Schmidt, Thomas Wilimsky",
         "type": "image"
       },
       {
@@ -2215,31 +2213,31 @@ export const imageData = JSON.parse(`
       {
         "name": "19-6-Jubelkonfirmation_2013 010.JPG",
         "thumbName": "19-6-Jubelkonfirmation_2013 010.JPG",
-        "description": "Jubelkonfirmation 2013",
+        "description": "Jubelkonfirmation 2013 v. li.: Heinz Fink, Stefan Schmidt, Karin Kolysko, Elfriede Gömmel, Frieda Schön",
         "type": "image"
       },
       {
         "name": "20-Konfiprüfung2013 001.JPG",
         "thumbName": "20-Konfiprüfung2013 001.JPG",
-        "description": "Konfirmandenprüfung 2013",
+        "description": "Der Konfirmandenprüfung 2013 stellten sich: Pia Abraham, Antonia Brandmann, Lisa Eberhard, Marlene Fink, Philip Fischer, Celine Frodl, Julian Koch, Manuel Lutz, Joschua Meister, Sandra Nerreter, Robin Siering, ErikThieme, Tim Weinzierl, Marc-Philipp Wörner (Reihenfolge  nicht verbindlich).",
         "type": "image"
       },
       {
         "name": "21-Konfi-14 P4270086.JPG",
         "thumbName": "21-Konfi-14 P4270086.JPG",
-        "description": "Konfirmanden 2014 mit Pfr. Winkler",
+        "description": "Konfirmanden 2014: v. li. Lucy Hartmann, Henri Thieme, Linda Bauer, Tim Moosburger, Larissa Seibold, mit Pfarrer Winkler",
         "type": "image"
       },
       {
         "name": "22-Konfi-14 P4270085.JPG",
         "thumbName": "22-Konfi-14 P4270085.JPG",
-        "description": "Konfirmation 2014",
+        "description": "Konfirmation 2014: v. li.: Larissa Seibold, Lucy Hartmann, Linda Bauer, Henri Thieme, Tim Moosburger, Pfr. Winkler",
         "type": "image"
       },
       {
         "name": "23-1-2014 023.JPG",
         "thumbName": "23-1-2014 023.JPG",
-        "description": "Jubelkonfirmation 28.9.2014",
+        "description": "Jubelkonfirmation 2014, v. li.: Gerhard Billhöfer, Hans Müller, Georg Distler, Walter Reichel, Andreas Mederer, Karl Pilipp, Ernst Wagner, Gerdi Maul, Erna Lederer, Anja Schneider, Sieglinde, geb. Vestner, Gunda, geb. Distler, Marianne Kaiser, Angelika Renner, Marga Maußner, Luise Buchner, Berta Arndt",
         "type": "image"
       },
       {
@@ -2251,7 +2249,7 @@ export const imageData = JSON.parse(`
       {
         "name": "25-3-IMG_0969.JPG",
         "thumbName": "25-3-IMG_0969.JPG",
-        "description": "Jubelkonfirmation 28.9.2014",
+        "description": "Jubelkonfirmation 28.9.2014: v. li. Hans Abraham, Pfr. Schimmel, Karl Pillipp",
         "type": "image"
       },
       {
@@ -2263,7 +2261,7 @@ export const imageData = JSON.parse(`
       {
         "name": "27-Konfi 2015-2.JPG",
         "thumbName": "27-Konfi 2015-2.JPG",
-        "description": "Konfirmanden 2015 mit Pfr. Winkler",
+        "description": "Konfirmanden 2015: v. li. Pfr. Winkler,  Michael Hiller, Swen Rabus, Isabel Wörner, Lena Folmer, Lea Weber",
         "type": "image"
       },
       {
@@ -2287,7 +2285,7 @@ export const imageData = JSON.parse(`
       {
         "name": "31-2016 IMG_0151.JPG",
         "thumbName": "31-2016 IMG_0151.JPG",
-        "description": "Konfirmation 3.4.2016",
+        "description": "Konfirmation 3.4.2016: Mädchen v. li.: Jasmina Kunder, Jasmin Kalb, Eva Rinke, Marina Nicklas, Jungen: Denny und Mark Moosburger, Jan Abraham, Meik Meister, Schimmang Paul (nicht in Reihenfolge), mit Pfr. Treu",
         "type": "image"
       },
       {
@@ -2317,7 +2315,7 @@ export const imageData = JSON.parse(`
       {
         "name": "34c-f0444544.JPG",
         "thumbName": "34c-f0444544.JPG",
-        "description": "Jubelkonfirmation am 27.09.2016: Fr. Eberhard, Pfr. Treu, Hr. Monatsberger, Hr. Kraußer",
+        "description": "Jubelkonfirmation am 27.09.2016: Tina Eberhard, Pfr. Treu, Ludwig Monatsberger, Stefan Kraußer",
         "type": "image"
       },
       {
@@ -2334,13 +2332,13 @@ export const imageData = JSON.parse(`
       {
         "name": "39-Konfirmanden 2017-18.JPG",
         "thumbName": "39-Konfirmanden 2017-18.JPG",
-        "description": "Konfirmanden 2018 Leo Schimmang, Philipp Emmerling, Femke Reiners, Vincent Thieme mit Pfr. Treu",
+        "description": "Konfirmanden 2018:  Leo Schimmang, Philipp Emmerling, Femke Reiners, Vincent Thieme mit Pfr. Treu",
         "type": "image"
       },
       {
         "name": "40-T-Konfirmation_2018.JPG",
         "thumbName": "40-T-Konfirmation_2018.JPG",
-        "description": "Konfirmanden 2018: Sophia Meier, Hannah Distler (Lars Rabus fehlt auf dem Bild)",
+        "description": "Konfirmandenvorstellung 2018: Sophia Meier, Hannah Distler (Lars Rabus fehlt auf dem Bild)",
         "type": "image"
       }
     ]
@@ -2350,50 +2348,55 @@ export const imageData = JSON.parse(`
       {
         "name": "01-1998-04-04_Pilgerpfad Jakobsweg von Rosstal über Heilsbronn nach Weihenzell.jpg",
         "thumbName": "01-1998-04-04_Pilgerpfad Jakobsweg von Rosstal über Heilsbronn nach Weihenzell.jpg",
+        "description": "Erste Pilger auf dem Jakobsweg von Roßtal über Heisbronn nach Weihenzell mit Pfr. Merz 1998",
         "type": "image"
       },
       {
         "name": "02-1998-11-07_Jakobsweg.jpg",
         "thumbName": "02-1998-11-07_Jakobsweg.jpg",
+        "description": "Jakobswanderung 7.11.1998: v. li.: Dieter Günther, Fritz und Annemarie Bräunlein",
         "type": "image"
       },
       {
         "name": "02-1998-11-07_Jakobsweg02.jpg",
         "thumbName": "02-1998-11-07_Jakobsweg02.jpg",
+        "description": "Jakobswanderung von Tillyschanz bis Altenthann in zweimal jährl. Etappen. Am 7.11.1998 bis Fuchsberg",
         "type": "image"
       },
       {
         "name": "03-1999-10-30_Jakobsweg.jpg",
         "thumbName": "03-1999-10-30_Jakobsweg.jpg",
+        "description": "Jakobs-Pilger von Feunz nach Willhof, 30.10.99",
         "type": "image"
       },
       {
         "name": "04-Jakobswanderung 003.jpg",
         "thumbName": "04-Jakobswanderung 003.jpg",
-        "description": "Jakobswanderung 2004 mit Pfarrer Markus Merz:  Von Tillyschanz an der tschechischen Grenze in zweimal jährlichen Etappen bis Altenthann",
+        "description": "Jakobswanderung 2004",
         "type": "image"
       },
       {
         "name": "06-2002-03-16_Jakobspilger auf den Stufen der Sophienquelle.jpg",
         "thumbName": "06-2002-03-16_Jakobspilger auf den Stufen der Sophienquelle.jpg",
+        "description": "Jakobswanderung Etappe Sindelbach bis Altenthann erstmals ohne Pfr Merz.  Rast bei der Sophienquelle am 16.3.2002",
         "type": "image"
       },
       {
         "name": "07-Jakobswanderung 011.jpg",
         "thumbName": "07-Jakobswanderung 011.jpg",
-        "description": "Jakobswanderung 2004 - Von Tillyschanz bis Altenthann in zweimal jährlichen Etappen",
+        "description": "Jakobswanderung 2004",
         "type": "image"
       },
       {
         "name": "08-Jakobsweg 2007 007.jpg",
         "thumbName": "08-Jakobsweg 2007 007.jpg",
-        "description": "Jakobsweg 2007: wandern macht hungrig",
+        "description": "Jakobsweg 2007: wandern macht hungrig. Rast in Reckersdorf",
         "type": "image"
       },
       {
         "name": "09-Jakobsweg 2007 004.jpg",
         "thumbName": "09-Jakobsweg 2007 004.jpg",
-        "description": "Jakobsweg 3.11.2007",
+        "description": "Jakobsweg 3.11.2007, nach Besichtigung der Großhaslacher Kirche",
         "type": "image"
       },
       {
@@ -2409,24 +2412,24 @@ export const imageData = JSON.parse(`
       {
         "name": "01-P7080002.JPG",
         "thumbName": "01-P7080002.JPG",
+        "description": "",
         "type": "image"
       },
       {
         "name": "02-2-IMG_2545.JPG",
         "thumbName": "02-2-IMG_2545.JPG",
-        "description": "Kindergottesdienstleiterin Annette Koch",
+        "description": "Zeltgottesdienst beim Gemeindefest Altenthann",
         "type": "image"
       },
       {
         "name": "03-IMG_2550.JPG",
         "thumbName": "03-IMG_2550.JPG",
-        "description": "",
+        "description": "Gemeindefest  Zeltgottesdienst mit Kindergottesdienst-Kindern",
         "type": "image"
       },
       {
         "name": "04-IMG_2518.JPG",
         "thumbName": "04-IMG_2518.JPG",
-        "description": "Pfarrer Markus Merz und Uli Koch",
         "type": "image"
       },
       {
@@ -2550,12 +2553,13 @@ export const imageData = JSON.parse(`
       {
         "name": "23-Gemeindefest 2011 058.JPG",
         "thumbName": "23-Gemeindefest 2011 058.JPG",
+        "description": "Gemeindefest 2011, Kindergarten-Kinder führen ein Märchenspiel vor",
         "type": "image"
       },
       {
         "name": "24-09-Gemeindefest_2013 041.JPG",
         "thumbName": "24-09-Gemeindefest_2013 041.JPG",
-        "description": "Gemeindefest 2013",
+        "description": "Gemeindefest 2013 - Kindergarten-Aufführung",
         "type": "image"
       },
       {
@@ -2579,7 +2583,7 @@ export const imageData = JSON.parse(`
       {
         "name": "28-IMG_2465.JPG",
         "thumbName": "28-IMG_2465.JPG",
-        "description": "Pfarrer Merz und Andreas Köpke, Fußballtorwart",
+        "description": "Pfarrer Merz und Andreas Köpke, Torhüter der Fußballnationalmannschaft",
         "type": "image"
       },
       {
@@ -2609,24 +2613,25 @@ export const imageData = JSON.parse(`
       {
         "name": "33-02-Gemeindefest 2009 012.JPG",
         "thumbName": "33-02-Gemeindefest 2009 012.JPG",
-        "description": "Gemeindefest 2009",
+        "description": "Gemeindefest 2009, re. Diakon Hacker",
         "type": "image"
       },
       {
         "name": "34-Gemeindefest 2011 032.JPG",
         "thumbName": "34-Gemeindefest 2011 032.JPG",
+        "description": "2011",
         "type": "image"
       },
       {
         "name": "35-04-Gemeindefest 2009 014.JPG",
         "thumbName": "35-04-Gemeindefest 2009 014.JPG",
-        "description": "Gemeindefest 2009, Pfarrer Mendel",
+        "description": "Gemeindefest 2012, Pfarrer Mendel",
         "type": "image"
       },
       {
         "name": "36-03-Gemeindefest 2009 013.JPG",
         "thumbName": "36-03-Gemeindefest 2009 013.JPG",
-        "description": "Gemeindefest 2009:  Pfarrer Mendel, Pfarrer Weingärtner, Pfarrer Lösel, Micha Behrend",
+        "description": "Gemeindefest 2012:  Pfarrer Mendel, Pfarrer Weingärtner, Pfarrer Lösel, Micha Behrend",
         "type": "image"
       },
       {
@@ -2656,19 +2661,19 @@ export const imageData = JSON.parse(`
       {
         "name": "41-14-P7120048.JPG",
         "thumbName": "41-14-P7120048.JPG",
-        "description": "Gemeindefest 2015 mit Konzert aller örtlichen Musikgrupen - hier Rentnerband:  Leitung Ursula Muschler re.",
+        "description": "Gemeindefest 2015 mit Konzert aller örtlichen Musikgrupen - hier Rentnerband:  Leitung Ursel Muschler re.",
         "type": "image"
       },
       {
         "name": "42-15-P7120054.JPG",
         "thumbName": "42-15-P7120054.JPG",
-        "description": "Gemeindefest Altenthann 12.07.2015 mit Konzert aller örtlichen Musikgruppen  - hier Spielmannszug, dahinter Männergesangverein Altenthann-Lindelburg",
+        "description": "Gemeindefest 2015 mit Konzert aller örtlichen Musikgruppen - hier Spielmannszug, dahinter Männergesangverein Altenthann-Lindelburg, Leitung: Hubert Gröbel",
         "type": "image"
       },
       {
         "name": "43-16-P7120055.JPG",
         "thumbName": "43-16-P7120055.JPG",
-        "description": "Gemeindefest Altenthann 2015 mit Konzert aller örtlichen Musikgruppen - hier Spielmannszug",
+        "description": "Gemeindefest 2015 mit Konzert aller örtlichen Musikgruppen - hier Spielmannszug, Leitung: Hubert Gröbel",
         "type": "image"
       },
       {
@@ -2688,21 +2693,33 @@ export const imageData = JSON.parse(`
         "type": "image"
       },
       {
-        "name": "02-Dorffest 2004 003.JPG",
-        "thumbName": "02-Dorffest 2004 003.JPG",
-        "description": "Dorffest  Pattenhofen, Zeltgottesdienst mit Pfr. Winning, 18.07.2004",
-        "type": "image"
-      },
-      {
         "name": "03-Dorffest 2004 006.JPG",
         "thumbName": "03-Dorffest 2004 006.JPG",
-        "description": "Dorffest Pattenhofen 2004, Zeltgottesdienst mit Singkreis, Leitung Sigrid Rüger",
+        "description": "Dorffest Pattenhofen 2004, Zeltgottesdienst mit Singkreis, Leitung: Sigrid Rüger",
         "type": "image"
       },
       {
         "name": "04-09-Dorffest 2006 005.JPG",
         "thumbName": "04-09-Dorffest 2006 005.JPG",
-        "description": "Zeltgottesdienst beim Dorffest Pattenhofen 2006, Singkreis unter Leitung von Elke Schmid",
+        "description": "Zeltgottesdienst Dorffest Pattenhofen 2006, Singkreis Leitung: Elke Schmid",
+        "type": "image"
+      },
+      {
+        "name": "04-09a-P1010815.JPG",
+        "thumbName": "04-09a-P1010815.JPG",
+        "description": "Dorffest Pattenhofen 2010 - Zeltgottesdienst mit Pfr. Gottfried Winning und Posaunenchor, Leitung: Heinz Fink",
+        "type": "image"
+      },
+      {
+        "name": "04-10-Dorffest 2004 003.JPG",
+        "thumbName": "04-10-Dorffest 2004 003.JPG",
+        "description": "Dorffest  Pattenhofen, Zeltgottesdienst mit Pfr. Winning, 18.07.2004",
+        "type": "image"
+      },
+      {
+        "name": "04-10-Dorffest 2005 028.jpg",
+        "thumbName": "04-10-Dorffest 2005 028.jpg",
+        "description": "Dorffest Pattenhofen 24.7.2005",
         "type": "image"
       },
       {
@@ -2714,7 +2731,7 @@ export const imageData = JSON.parse(`
       {
         "name": "06-Dorffest 2007 006.JPG",
         "thumbName": "06-Dorffest 2007 006.JPG",
-        "description": "Dorffest Pattenhofen  am 22.07.2007 - dem Gottesdienst lauschende Feuerwehrler",
+        "description": "Dorffest Pattenhofen  am 22.07.2007 - v. li. Helmut Meyer, Günther Schmidt, Ulf Kaubisch, Christian Felsner, Klaus Ipta",
         "type": "image"
       },
       {
@@ -2736,27 +2753,31 @@ export const imageData = JSON.parse(`
         "type": "image"
       },
       {
-        "name": "10-P1010815.JPG",
-        "thumbName": "10-P1010815.JPG",
-        "description": "Dorffest Pattenhofen 2010 - Zeltgottesdienst mit Pfr. Gottfried Winning und Posaunenchor unter Leitung von Heinz Fink",
+        "name": "11-25-P1040159.JPG",
+        "thumbName": "11-25-P1040159.JPG",
+        "description": "Dorffest Pattenhofen 24.7.2011",
         "type": "image"
       },
       {
-        "name": "11-25-P1040159.JPG",
-        "thumbName": "11-25-P1040159.JPG",
-        "description": "Dorffest Pattenhofen 2011",
+        "name": "12 Damen mit Kuchen.jpg",
+        "thumbName": "12 Damen mit Kuchen.jpg",
+        "type": "image"
+      },
+      {
+        "name": "12 Dorffest 2016.JPG",
+        "thumbName": "12 Dorffest 2016.JPG",
         "type": "image"
       },
       {
         "name": "12-IMG_0585.JPG",
         "thumbName": "12-IMG_0585.JPG",
-        "description": "Bumberer-Fest mit Pfr. Winkler und Posaunenchor am 16.08.2016 im Wald beim Felsenkeller Pattenhofen - Veranstalter: Familie Kurt Bock,  Burgthann",
+        "description": "Bumberer-Fest mit Andacht von Pfr. Winkler und Posaunenchor am 16.08.2016 im Wald beim Felsenkeller Pattenhofen - Veranstalter: Familie Kurt Bock,  Burgthann",
         "type": "image"
       },
       {
         "name": "13-IMG_0582.JPG",
         "thumbName": "13-IMG_0582.JPG",
-        "description": "Bumberer Fest mit Pfr. Winkler und Posaunenchor, nachmittags am  16.08.2016 im Wald beim Felsenkeller Pattenhofen - Veranstalter Fam. Kurt Bock, Burgthann",
+        "description": "Bumberer Fest mit Pfr. Winkler und Posaunenchor, nachmittags am 16.08.2016 im Wald beim Felsenkeller Pattenhofen - Veranstalter Fam. Kurt Bock, Burgthann",
         "type": "image"
       },
       {
@@ -2772,7 +2793,7 @@ export const imageData = JSON.parse(`
       {
         "name": "01-IMG_2522.jpg",
         "thumbName": "01-IMG_2522.jpg",
-        "description": "Singkreis unter Leitung von Sigrid Rüger",
+        "description": "Der Singkreis wurde 1993 gegründet. Sigrid Rüger leitete ihn bis 2005.",
         "type": "image"
       },
       {
@@ -2784,17 +2805,19 @@ export const imageData = JSON.parse(`
       {
         "name": "03-2014 Zeltgottesdienst02.jpg",
         "thumbName": "03-2014 Zeltgottesdienst02.jpg",
+        "description": "Singkreis beim Dorffest Pattenhofen, Leitung: Elke Schmid seit 2005",
         "type": "image"
       },
       {
         "name": "04-2-19-Verabschiedung2011 028.jpg",
         "thumbName": "04-2-19-Verabschiedung2011 028.jpg",
-        "description": "Verabschiedung Pfarramtsführer Klaus Mendel 2011 mit Rentnerband",
+        "description": "Rentnerband, Leitung: Ursel Muschler",
         "type": "image"
       },
       {
         "name": "06-Verabschiedung2011 030.jpg",
         "thumbName": "06-Verabschiedung2011 030.jpg",
+        "description": "Rentnerband: Leitung Ursel Muschler",
         "type": "image"
       },
       {
@@ -2804,9 +2827,9 @@ export const imageData = JSON.parse(`
         "type": "image"
       },
       {
-        "name": "08-IMG_2961.jpg",
-        "thumbName": "08-IMG_2961.jpg",
-        "description": "50-jähriges Jubiläum Posaunenchor Altenthann  1997 -  unter Leitung von Jakob Rüger.",
+        "name": "08-IMG_2966.jpg",
+        "thumbName": "08-IMG_2966.jpg",
+        "description": "50 Jahre Posaunenchor Altenthann - rechts Bläsersenior Heinrich Holzammer, dahinter Diakon Deyerl",
         "type": "image"
       },
       {
@@ -2815,32 +2838,33 @@ export const imageData = JSON.parse(`
         "type": "image"
       },
       {
-        "name": "09-IMG_2963.jpg",
-        "thumbName": "09-IMG_2963.jpg",
-        "description": "50 Jahre Posaunenchor Altenthann 1997,   Leitung: Jakob Rüger (vorne Mitte)",
+        "name": "09-IMG_2967.jpg",
+        "thumbName": "09-IMG_2967.jpg",
+        "description": "50-Jahrfeier Posaunenchor Altenthann,  von li.: Heinrich Holzammer, Markus Eckstein, Andrea Rüger, Rainer Kraußer, Agnes Rüger",
         "type": "image"
       },
       {
-        "name": "10-IMG_2966.jpg",
-        "thumbName": "10-IMG_2966.jpg",
-        "description": "50 Jahre Posaunenchor Altenthann 1997  - rechts Bläsersenior Heinrich Holzammer, dahinter Diakon Deyerl",
+        "name": "10-IMG_2961.jpg",
+        "thumbName": "10-IMG_2961.jpg",
+        "description": "50-jähriges Jubiläum Posaunenchor Altenthann am 11.6.1995 (nach Absprache vorgezogen)",
         "type": "image"
       },
       {
-        "name": "11-IMG_2967.jpg",
-        "thumbName": "11-IMG_2967.jpg",
-        "description": "50-Jahrfeier Posaunenchor Altenthann 1997-  von li.: Heinrich Holzammer, Markus Eckstein, Andrea Rüger, Rainer Kraußer, Agnes Rüger",
+        "name": "11-IMG_2963.jpg",
+        "thumbName": "11-IMG_2963.jpg",
+        "description": "50 Jahre Posaunenchor-Jubiläum Altenthann. - Jakob Rüger leitete den Chor von 1956 - 1998",
         "type": "image"
       },
       {
         "name": "12-Posaunenchorjubiläum 50 Jahre.jpg",
         "thumbName": "12-Posaunenchorjubiläum 50 Jahre.jpg",
-        "description": "50 jähriges Posaunenchor Jubiläum 1995",
+        "description": "50 jähriges Posaunenchor-Jubiläum",
         "type": "image"
       },
       {
         "name": "13-Posaunenchorjubiläum 70 Jahre.jpg",
         "thumbName": "13-Posaunenchorjubiläum 70 Jahre.jpg",
+        "description": "70 Jahre Posaunenchor-Jubiläum 2017",
         "type": "image"
       },
       {
@@ -2864,18 +2888,19 @@ export const imageData = JSON.parse(`
       {
         "name": "17-04P1-010815.jpg",
         "thumbName": "17-04P1-010815.jpg",
-        "description": "Dorffest Pattenhofen 2010 - Zeltgottesdienst mit Pfr. Gottfried Winning und Posaunenchor unter Leitung von Heinz Fink",
+        "description": "Heinz Fink leitete den Posaunenchor von 1998 - 2013",
         "type": "image"
       },
       {
         "name": "17-04P2-12014Zeltgottesdienst03.jpg",
         "thumbName": "17-04P2-12014Zeltgottesdienst03.jpg",
+        "description": "Rainer Kraußer, links, leitet den Posaunenchor seit 2013",
         "type": "image"
       },
       {
         "name": "17-05-15 9.jpg",
         "thumbName": "17-05-15 9.jpg",
-        "description": "Zum 1. Mai 2015 erklingen in Pattenhofen Frühlingslieder des Posaunenchors",
+        "description": "Zum 1. Mai 2015 erklingen in Pattenhofen Frühlingslieder des Posaunenchors, Chorleiter: Rainer Kraußer",
         "type": "image"
       },
       {
@@ -2893,18 +2918,19 @@ export const imageData = JSON.parse(`
       {
         "name": "20-IMG_20150525_113303.jpg",
         "thumbName": "20-IMG_20150525_113303.jpg",
+        "description": "Posaunenchor spielt beim Pfingstgottesdienst an der Sophienquelle, 2015",
         "type": "image"
       },
       {
         "name": "23-2017-02-05 Hannes Treu Geburtstag.jpg",
         "thumbName": "23-2017-02-05 Hannes Treu Geburtstag.jpg",
-        "description": "Zur Geburt seines Sohnes Hannes Treu überreicht der Posaunenchor Pfarrer Tobias Treu eine 'Windelkirche'",
+        "description": "Die Mitglieder des Posaunenchors überreichen Pfarrer Treu zur Geburt seines Sohnes Hannes, geboren am 5.2.2017, eine aus Windeln gebastelte Kirche",
         "type": "image"
       },
       {
         "name": "24-2017-02-21 21-53-26_PC-A_DieterWendel.jpg",
         "thumbName": "24-2017-02-21 21-53-26_PC-A_DieterWendel.jpg",
-        "description": "Gemütliches Zusammensein nach der Probe mit Landesposaunenwart Dieter Wendel",
+        "description": "Gemütliches Zusammensein nach der Probe mit Landesposaunenwart Dieter Wendel (vor dem Fenster)",
         "type": "image"
       },
       {
@@ -2932,6 +2958,7 @@ export const imageData = JSON.parse(`
       {
         "name": "29-Waldweihnacht 2009 008.jpg",
         "thumbName": "29-Waldweihnacht 2009 008.jpg",
+        "description": "Waldweihnacht 2009",
         "type": "image"
       },
       {
@@ -2941,13 +2968,13 @@ export const imageData = JSON.parse(`
         "type": "image"
       },
       {
-        "name": "70 Jahre Posaunenchor Altenthann.pdf",
-        "thumbName": "70 Jahre Posaunenchor Altenthann.pdf.png",
+        "name": "50 Jahre Posaunenchor Altenthann.pdf",
+        "thumbName": "50 Jahre Posaunenchor Altenthann.pdf.png",
         "type": "pdf"
       },
       {
-        "name": "Posaunenchor Altenthann 50 Jahre.pdf",
-        "thumbName": "Posaunenchor Altenthann 50 Jahre.pdf.png",
+        "name": "70 Jahre Posaunenchor Altenthann.pdf",
+        "thumbName": "70 Jahre Posaunenchor Altenthann.pdf.png",
         "type": "pdf"
       }
     ]
@@ -2957,16 +2984,19 @@ export const imageData = JSON.parse(`
       {
         "name": "01-Krabbelgruppe (4).jpg",
         "thumbName": "01-Krabbelgruppe (4).jpg",
+        "description": "Der 'Mutter-Kind-Kreis' wurde vor ca. 30 Jahren von Sabine v. Grundherr ins Leben gerufen. Ansprechpartnerin: Kerstin Kraußer",
         "type": "image"
       },
       {
         "name": "02-Krabbelgruppe (1).jpg",
         "thumbName": "02-Krabbelgruppe (1).jpg",
+        "description": "Mutter-Kind-Kreis im Gemeindehaus Altenthann",
         "type": "image"
       },
       {
         "name": "03-Krabbelgruppe (2).jpg",
         "thumbName": "03-Krabbelgruppe (2).jpg",
+        "description": "Mütter und Kinder genießen den ersten Schnee",
         "type": "image"
       },
       {
@@ -2977,17 +3007,19 @@ export const imageData = JSON.parse(`
       {
         "name": "05-Krabbelgruppe (5).jpg",
         "thumbName": "05-Krabbelgruppe (5).jpg",
+        "description": "Im Kuhstall bei Kraußers in Wallersberg gibt es für die Kleinen viel zu entdecken, 2017",
         "type": "image"
       },
       {
         "name": "06-4-IMG_2458.jpg",
         "thumbName": "06-4-IMG_2458.jpg",
-        "description": "11.9.1989 Im ehem. Schulhaus wird ein Kindergarten eingeweiht. Leiterin: Regina Pflüger",
+        "description": "Im ehem. Schulhaus Altenthann wird von Pfr. Luthardt am 11.9.1989 ein Kindergarten eingeweiht. Leiterin: Regina Pflüger",
         "type": "image"
       },
       {
         "name": "07-5-IMG_2459.jpg",
         "thumbName": "07-5-IMG_2459.jpg",
+        "description": "Seit 11. September 1989 gibt es in Altenthann einen Kindergarten. Leiterin: Regina Pflüger",
         "type": "image"
       },
       {
@@ -3011,6 +3043,7 @@ export const imageData = JSON.parse(`
       {
         "name": "11-Gemeindefest_2013 041.jpg",
         "thumbName": "11-Gemeindefest_2013 041.jpg",
+        "description": "Kindergartenkinder beim Gemeindefest 2013",
         "type": "image"
       },
       {
@@ -3039,23 +3072,25 @@ export const imageData = JSON.parse(`
       {
         "name": "16-Gemeindefest 2007 004.jpg",
         "thumbName": "16-Gemeindefest 2007 004.jpg",
+        "description": "Kindergottesdienstkinder beim Gemeindefest 2007",
         "type": "image"
       },
       {
         "name": "17-03-Gemeindefest_2013 006.jpg",
         "thumbName": "17-03-Gemeindefest_2013 006.jpg",
-        "description": "Gemeindefest 2013",
+        "description": "Kindergottesdienstkinder beim Gemeindefest 2013",
         "type": "image"
       },
       {
         "name": "18-P7120019.jpg",
         "thumbName": "18-P7120019.jpg",
+        "description": "Kindergottesdienstkinder beim Gemeindefest 2015",
         "type": "image"
       },
       {
         "name": "19-Dankeschön_2013 013.jpg",
         "thumbName": "19-Dankeschön_2013 013.jpg",
-        "description": "Elke Niklas und Annette Koch werden von Pfr. Winkler für langjährige Mitarbeit im Kindergottesdienst geehrt",
+        "description": "Elke Niklas und Annette Koch werden von Pfr. Winkler für langjährige Mitarbeit im Kindergottesdienst geehrt, 2013",
         "type": "image"
       }
     ]
@@ -3065,19 +3100,13 @@ export const imageData = JSON.parse(`
       {
         "name": "01-01-30-IMG_2789.JPG",
         "thumbName": "01-01-30-IMG_2789.JPG",
-        "description": "Pfr. Winning verleiht Hildegard Abraham das Goldene Kronenkreuz am 29.10.2006",
+        "description": "Im November 1990 wurde der Seniorenkreis von Hildegard Abraham und Ulrike Bendiks gegründet.",
         "type": "image"
       },
       {
         "name": "02-02-25-IMG_2539.JPG",
         "thumbName": "02-02-25-IMG_2539.JPG",
         "description": "Verleihung des goldenen Kronenkreuzes an Ulrike Bendiks und Hildegard Abraham",
-        "type": "image"
-      },
-      {
-        "name": "03-05-13-IMG_2494.JPG",
-        "thumbName": "03-05-13-IMG_2494.JPG",
-        "description": "Charlotte Koch, Hildegard Abraham, Ulrike Bendiks",
         "type": "image"
       },
       {
@@ -3119,12 +3148,13 @@ export const imageData = JSON.parse(`
       {
         "name": "10-04-18-IMG_2517.JPG",
         "thumbName": "10-04-18-IMG_2517.JPG",
+        "description": "Der Seniorenkreis feiert 10-jährige Jubiläum im November 2000. Er wurde von Hildegard Abraham und Uli Bendiks gegründet",
         "type": "image"
       },
       {
         "name": "11-03-17-IMG_2516.JPG",
         "thumbName": "11-03-17-IMG_2516.JPG",
-        "description": "Der Seniorenkreis wurde von Fr. Abraham und Fr. Bendiks  Anf. 1990 gegründet und feierte 10-jähr. Jubiläum mit Pfr. Merz, rechts Fr. Scheuenstuhl, Fr. Koch, links Fr. Kießkalt",
+        "description": "Seniorenkreis feierte 10-jähr. Jubiläum mit Pfr. Merz im Nov. 2000, v. li.: Fr. Kießkalt, Fr.  Bendiks, Pfr. Merz, Fr. Abraham, Fr. Koch, Fr. Scheuenstuhl",
         "type": "image"
       },
       {
@@ -3148,7 +3178,7 @@ export const imageData = JSON.parse(`
       {
         "name": "15-10-IMG_2490.JPG",
         "thumbName": "15-10-IMG_2490.JPG",
-        "description": "Herr Rupprecht, Schreinermeister Altenthann",
+        "description": "Herr Rupprecht, Schreinermeister aus Altenthann",
         "type": "image"
       },
       {
@@ -3225,7 +3255,7 @@ export const imageData = JSON.parse(`
       {
         "name": "28-15-IMG_2506.JPG",
         "thumbName": "28-15-IMG_2506.JPG",
-        "description": "rechts Frau Vitzthum, Pattenhofen",
+        "description": "Li. Amalie Schmidt und Kunigunde Pickel, re. Babette Vitzthum, Kunigunde Schmidt, alle Pattenhofen",
         "type": "image"
       },
       {
@@ -3249,32 +3279,37 @@ export const imageData = JSON.parse(`
       {
         "name": "32-Nostalgische Modenschau (1).JPG",
         "thumbName": "32-Nostalgische Modenschau (1).JPG",
-        "description": "Seniorenkreis-Team:   Elfriede Brückner, Marianne Kaiser, Uli Bendiks, Gitta Kostka",
+        "description": "Seniorenkreis-Team 12.2.2015: Elfriede Brückner, Marianne Kaiser, Uli Bendiks, Gitta Kostka",
         "type": "image"
       },
       {
         "name": "33-32-Nostalgische Modenschau (2).JPG",
         "thumbName": "33-32-Nostalgische Modenschau (2).JPG",
+        "description": "Das Seniorenkreis-Team veranstaltet eine lustige Modenschau am 11.2.2015",
         "type": "image"
       },
       {
         "name": "34-36-Nostalgische Modenschau (6).JPG",
         "thumbName": "34-36-Nostalgische Modenschau (6).JPG",
+        "description": "Modenschau im Gemeindehaus 2015",
         "type": "image"
       },
       {
         "name": "35-34-Nostalgische Modenschau (24).JPG",
         "thumbName": "35-34-Nostalgische Modenschau (24).JPG",
+        "description": "Modenschau 2015",
         "type": "image"
       },
       {
         "name": "36-33-Nostalgische Modenschau (34).JPG",
         "thumbName": "36-33-Nostalgische Modenschau (34).JPG",
+        "description": "Modenschau 2015",
         "type": "image"
       },
       {
         "name": "37-37-Nostalgische Modenschau (21).JPG",
         "thumbName": "37-37-Nostalgische Modenschau (21).JPG",
+        "description": "Modenschau 2015",
         "type": "image"
       },
       {
@@ -3285,83 +3320,97 @@ export const imageData = JSON.parse(`
       {
         "name": "39-38-Nostalgische Modenschau (47).JPG",
         "thumbName": "39-38-Nostalgische Modenschau (47).JPG",
+        "description": "Modenschau 2015",
         "type": "image"
       },
       {
         "name": "40-40-PA150017.JPG",
         "thumbName": "40-40-PA150017.JPG",
+        "description": "Seniorenausflug Kloster Speinshart 2014",
         "type": "image"
       },
       {
         "name": "41-43-PA150008.JPG",
         "thumbName": "41-43-PA150008.JPG",
-        "description": "Seniorenausflug Kloster Speinshart Okt. 2014 - vorne rechts: Margarete Maußner, Hr. Maußner, Fr. Hillburger,",
+        "description": "Seniorenausflug Kloster Speinshart Okt. 2014 - vorne rechts: Fr. Maußner, Hr. Maußner, Fr. Hillburger",
         "type": "image"
       },
       {
         "name": "42-41-PA150021.JPG",
         "thumbName": "42-41-PA150021.JPG",
+        "description": "Besuch des Wurzelmuseums in Tremmersdorf bei Speinshart 2014. Bernd Donhauser, ein oberpfälzer Original, zeigte seine Schätze",
         "type": "image"
       },
       {
         "name": "43-42-PA150022.JPG",
         "thumbName": "43-42-PA150022.JPG",
+        "description": "Wurzelmuseum Tremmersdorf bei Speinshart 2014",
         "type": "image"
       },
       {
         "name": "44-44-P7200013.JPG",
         "thumbName": "44-44-P7200013.JPG",
+        "description": "Seniorenausflug 'Nepal-Garten' bei Wörth a. d. Donau, 2015",
         "type": "image"
       },
       {
         "name": "45-45-P7200016.JPG",
         "thumbName": "45-45-P7200016.JPG",
+        "description": "Nepal-Garten 20.7.2015",
         "type": "image"
       },
       {
         "name": "46-46-P7200022.JPG",
         "thumbName": "46-46-P7200022.JPG",
+        "description": "Nepal-Garten 2015",
         "type": "image"
       },
       {
         "name": "47-47-IMG_0365.JPG",
         "thumbName": "47-47-IMG_0365.JPG",
+        "description": "Seniorenausflug nach Kulmbach mit Besuch des Gewürz- und Biermuseums Mai 2016",
         "type": "image"
       },
       {
         "name": "48-48-IMG_0375.JPG",
         "thumbName": "48-48-IMG_0375.JPG",
+        "description": "Seniorenausflug Kulmbach mit Führung in der Plassenburg 2016",
         "type": "image"
       },
       {
         "name": "49-49-IMG_0384.JPG",
         "thumbName": "49-49-IMG_0384.JPG",
+        "description": "Seniorenausflug Kulmbach,  Kapelle in der Plassenburg 2016",
         "type": "image"
       },
       {
         "name": "50-50-IMG_0386.JPG",
         "thumbName": "50-50-IMG_0386.JPG",
+        "description": "Plassenburg 2016",
         "type": "image"
       },
       {
         "name": "51-51-IMG_0662.JPG",
         "thumbName": "51-51-IMG_0662.JPG",
+        "description": "Seniorenausflug nach Schwabach ins 'Goldschläger-Museum', 23.9.2016",
         "type": "image"
       },
       {
         "name": "52-52-IMG_1454.JPG",
         "thumbName": "52-52-IMG_1454.JPG",
+        "description": "Ausflug der Gemeindehilfen und Burgthanner Senioren zur Schmalzmühle, Gemeinde Röckingen 8.6.2017",
         "type": "image"
       },
       {
         "name": "53-53-31-IMG_1464.JPG",
         "thumbName": "53-53-31-IMG_1464.JPG",
-        "description": "Beim Ausflug am 8.6.2017 mit Pfarrer Winkler, besuchten die Gemeindehilfen und Burgthanner Senioren ein Käseseminar in der Schmalzmühle, Gemeinde Röckingen. Waltraud Lang prüft den Geschmack",
+        "description": "Beim Ausflug mit Pfarrer Winkler, besuchten die Gemeindehilfen und Burgthanner Senioren ein Käseseminar in der Schmalzmühle, Waltraud Lang prüft den Geschmack",
         "type": "image"
       },
       {
         "name": "54-54-IMG_1509.JPG",
         "thumbName": "54-54-IMG_1509.JPG",
+        "description": "Seniorenkreisausflug Juni 2017, Kloster Münsterschwarzach",
         "type": "image"
       },
       {
