@@ -10,6 +10,7 @@ import { imageData } from '../assets/data';
 import { DATA_PROVIDER } from './providers';
 import { OverviewModule } from './overview/overview.module';
 import { DetailModule } from './detail/detail.module';
+import { SharedModule } from './shared/shared.module';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { DetailModule } from './detail/detail.module';
     BrowserAnimationsModule,
     RouterModule.forRoot(routes, { useHash: false }),
     OverviewModule,
-    DetailModule
+    DetailModule,
+    SharedModule
   ],
   providers: [
     { provide: DATA_PROVIDER, useValue: imageData }
