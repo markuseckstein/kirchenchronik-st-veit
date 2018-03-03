@@ -10,8 +10,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "electron-build-and-package": "npm run build-for-electron && npm run electron-package",
-    "electron-package": "electron-packager dist/kirchenchronik/ --out=dist/electron --overwrite --electron-version=1.8.2 --platform=win32,darwin,linux --asar --arch=ia32,x64,arm64 --icon=dist/kirchenchronik/favicon.ico",
-    "generate-data": "ts-node scripts/generateData.ts E:\\Daten\\Gemeinsam\\Gemeinsame_Bilder\\Kirchenchronik"
+    "electron-package": "electron-packager dist/kirchenchronik/ --out=dist/electron --overwrite --electron-version=1.8.2 --platform=win32,darwin,linux --asar --arch=ia32,x64,armv7l --icon=dist/kirchenchronik/favicon.ico",
+    "generate-data": "ts-node scripts/generateData.ts D:\\TelekomCloud\\MagentaCLOUD\\Backup_20180303\\Kirchenchronik"
   },
   "main": "electron.js",
   "private": true,
