@@ -671,11 +671,6 @@ export const imageData = JSON.parse(`
         "type": "image"
       },
       {
-        "name": "1901_drittes_Pfarrhaus_Altenthann1.JPG",
-        "thumbName": "1901_drittes_Pfarrhaus_Altenthann1.JPG",
-        "type": "image"
-      },
-      {
         "name": "2-IMG_2815.JPG",
         "thumbName": "2-IMG_2815.JPG",
         "description": "Protokoll Pfr. Lodter: Bildung Tochterkirchengemeinde Burgthann 1952 - Muttergemeinde Altenthann verliert auch die Häuser von Hahnhof 1958",
@@ -691,6 +686,11 @@ export const imageData = JSON.parse(`
         "name": "4-IMG_2817.JPG",
         "thumbName": "4-IMG_2817.JPG",
         "description": "Protokoll Pfr. Lodter",
+        "type": "image"
+      },
+      {
+        "name": "1901_drittes_Pfarrhaus_Altenthann1.JPG",
+        "thumbName": "1901_drittes_Pfarrhaus_Altenthann1.JPG",
         "type": "image"
       },
       {
@@ -2352,15 +2352,15 @@ export const imageData = JSON.parse(`
         "type": "image"
       },
       {
-        "name": "02-1998-11-07_Jakobsweg.jpg",
-        "thumbName": "02-1998-11-07_Jakobsweg.jpg",
-        "description": "Jakobswanderung 7.11.1998: v. li.: Dieter Günther, Fritz und Annemarie Bräunlein",
-        "type": "image"
-      },
-      {
         "name": "02-1998-11-07_Jakobsweg02.jpg",
         "thumbName": "02-1998-11-07_Jakobsweg02.jpg",
         "description": "Jakobswanderung von Tillyschanz bis Altenthann in zweimal jährl. Etappen. Am 7.11.1998 bis Fuchsberg",
+        "type": "image"
+      },
+      {
+        "name": "02-1998-11-07_Jakobsweg.jpg",
+        "thumbName": "02-1998-11-07_Jakobsweg.jpg",
+        "description": "Jakobswanderung 7.11.1998: v. li.: Dieter Günther, Fritz und Annemarie Bräunlein",
         "type": "image"
       },
       {
@@ -2759,6 +2759,12 @@ export const imageData = JSON.parse(`
         "type": "image"
       },
       {
+        "name": "12-IMG_0585.JPG",
+        "thumbName": "12-IMG_0585.JPG",
+        "description": "Bumberer-Fest mit Andacht von Pfr. Winkler und Posaunenchor am 16.08.2016 im Wald beim Felsenkeller Pattenhofen - Veranstalter: Familie Kurt Bock,  Burgthann",
+        "type": "image"
+      },
+      {
         "name": "12 Damen mit Kuchen.jpg",
         "thumbName": "12 Damen mit Kuchen.jpg",
         "type": "image"
@@ -2766,12 +2772,6 @@ export const imageData = JSON.parse(`
       {
         "name": "12 Dorffest 2016.JPG",
         "thumbName": "12 Dorffest 2016.JPG",
-        "type": "image"
-      },
-      {
-        "name": "12-IMG_0585.JPG",
-        "thumbName": "12-IMG_0585.JPG",
-        "description": "Bumberer-Fest mit Andacht von Pfr. Winkler und Posaunenchor am 16.08.2016 im Wald beim Felsenkeller Pattenhofen - Veranstalter: Familie Kurt Bock,  Burgthann",
         "type": "image"
       },
       {
