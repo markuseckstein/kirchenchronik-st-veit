@@ -92,6 +92,7 @@ export class ImageFileHandler extends FileHandler {
                 description = description.replace(/\"/g, '\'');
             }
         }
+        console.log(`File '${fullPathToFile}' has description:\n------\n${description}\n------\n\n`);
         return description;
     }
 }

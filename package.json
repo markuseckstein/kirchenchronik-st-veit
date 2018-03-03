@@ -11,7 +11,7 @@
     "e2e": "ng e2e",
     "electron-build-and-package": "npm run build-for-electron && npm run electron-package",
     "electron-package": "electron-packager dist/kirchenchronik/ --out=dist/electron --overwrite --electron-version=1.8.2 --platform=win32,darwin,linux --asar --arch=ia32,x64,arm64 --icon=dist/kirchenchronik/favicon.ico",
-    "generate-data": "ts-node scripts/generateData.ts D:\\TelekomCloud\\MagentaCLOUD\\Backup_20180221\\Kirchenchronik"
+    "generate-data": "ts-node scripts/generateData.ts E:\\Daten\\Gemeinsam\\Gemeinsame_Bilder\\Kirchenchronik"
   },
   "main": "electron.js",
   "private": true,
@@ -36,6 +36,7 @@
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~6.0.60",
     "codelyzer": "^4.0.1",
+    "electron-packager": "^11.0.1",
     "exif-js": "^2.3.0",
     "fs-extra": "^5.0.0",
     "jasmine-core": "~2.8.0",
@@ -50,7 +51,6 @@
     "sharp": "^0.19.0",
     "ts-node": "^4.1.0",
     "tslint": "~5.9.1",
-    "typescript": "~2.6.2",
-    "electron-packager": "^11.0.1"
+    "typescript": "~2.6.2"
   }
 }
