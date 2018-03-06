@@ -752,7 +752,7 @@ export const imageData = JSON.parse(`
       {
         "name": "01-01-17-IMG_2821.JPG",
         "thumbName": "01-01-17-IMG_2821.JPG",
-        "description": "Patronat der Familie v. Grundherr endet im Dez. 2000. - Die jetzige Gestalt erhielt die Kirche 1697 (Einbau der gewölbten Holzdecke und Errichtung der Emporen und Kanzel)",
+        "description": "Patronat der Familie v. Grundherr endete im Dez. 2000. - Die jetzige Gestalt erhielt die Kirche 1697 (Einbau der gewölbten Holzdecke und Errichtung der Emporen und Kanzel)",
         "type": "image"
       },
       {
@@ -804,7 +804,7 @@ export const imageData = JSON.parse(`
       {
         "name": "10-10-14-IMG_2775.JPG",
         "thumbName": "10-10-14-IMG_2775.JPG",
-        "description": "Nico von Grundherr heiratet in  der St. Veit-Kirche am 27.6.1992. Kinder: Maximilian und Mauritz von Grundherr",
+        "description": "Nico von Grundherr heiratet in der St. Veit-Kirche am 27.6.1992. Blumenkinder: Maximilian und Mauritz von Grundherr",
         "type": "image"
       },
       {
@@ -1101,7 +1101,7 @@ export const imageData = JSON.parse(`
       {
         "name": "20-20-Tobias Treu.JPG",
         "thumbName": "20-20-Tobias Treu.JPG",
-        "description": "Pfr. TobiasTreu, Altenthann März 2015 - Ende Febr. 2018",
+        "description": "Pfr. Tobias Treu, Altenthann März 2015 - Ende Febr. 2018",
         "type": "image"
       },
       {
@@ -1298,7 +1298,7 @@ export const imageData = JSON.parse(`
       {
         "name": "53-IMG_2763.JPG",
         "thumbName": "53-IMG_2763.JPG",
-        "description": "Missionsbeauftragter Fritz Rüger, KV:  Fritz Bräunlein, Stefan Kraußer, Hans Abraham, StefanSchmidt, Georg Distler, Leonhard Eckstein",
+        "description": "Missionsbeauftragter Fritz Rüger, KV: Fritz Bräunlein, Stefan Kraußer, Hans Abraham, Stefan Schmidt, Georg Distler, Leonhard Eckstein",
         "type": "image"
       },
       {
@@ -1321,7 +1321,7 @@ export const imageData = JSON.parse(`
       }
     ]
   },
-  "05 Einführungen und Abschiede": {
+  "05 Einführungen und Verabschiedungen": {
     "images": [
       {
         "name": "01-01-Theo Lodter 2.JPG",
@@ -1897,49 +1897,49 @@ export const imageData = JSON.parse(`
       {
         "name": "31-Kärwaburschen2017 1492.jpg",
         "thumbName": "31-Kärwaburschen2017 1492.jpg",
-        "description": "Kirchweih 2017: K.-Burschen und -madla besuchten gemeinsam den Gottesdienst",
+        "description": "Kirchweih 2017: Kärwaburschen und -madla besuchten gemeinsam den Gottesdienst",
         "type": "image"
       },
       {
         "name": "32-Kärwaburschen2017_1489.jpg",
         "thumbName": "32-Kärwaburschen2017_1489.jpg",
-        "description": "Kirwaburschen und -madla 2017 nach dem Gottesdienst, mit Pfr. Treu",
+        "description": "Kärwaburschen und -madla 2017 nach dem Gottesdienst, mit Pfr. Treu",
         "type": "image"
       },
       {
         "name": "33-IMG_0485_20160703.JPG",
         "thumbName": "33-IMG_0485_20160703.JPG",
-        "description": "Thanngraben-Gottesdienst 2016",
+        "description": "Thanngrabengottesdienst 2016.",
         "type": "image"
       },
       {
         "name": "33-IMG_1561.jpg",
         "thumbName": "33-IMG_1561.jpg",
-        "description": "Thanngraben-Gottesdienst  Juli 2017- Irene Wagner stellt sich als neue Jugendreferentin in Altenthann vor",
+        "description": "Thanngrabengottesdienst Juli 2017- Irene Wagner stellt sich als neue Jugendreferentin in Altenthann vor.",
         "type": "image"
       },
       {
         "name": "34-01-Thanngraben 2008 005.jpg",
         "thumbName": "34-01-Thanngraben 2008 005.jpg",
-        "description": "",
+        "description": "Gottesdienst im Thanngraben, 2008",
         "type": "image"
       },
       {
         "name": "34-02-Thanngraben 2010 004.jpg",
         "thumbName": "34-02-Thanngraben 2010 004.jpg",
-        "description": "",
+        "description": "Gottesdienst im Thanngraben, 2010",
         "type": "image"
       },
       {
         "name": "34-03-IMG_1553.jpg",
         "thumbName": "34-03-IMG_1553.jpg",
-        "description": "Thanngraben-Gottesdienst am 16.07.2017",
+        "description": "Thanngrabengottesdienst am 16.07.2017",
         "type": "image"
       },
       {
         "name": "36-13-Thanngraben 2008 006.jpg",
         "thumbName": "36-13-Thanngraben 2008 006.jpg",
-        "description": "Thanngrabengottesdienst 2008. Stefan Kalb und Gerhard Billhöfer am Grill",
+        "description": "Thanngrabengottesdienst 2008. Stefan Kalb und Gerhard Billhöfer am Grill.",
         "type": "image"
       },
       {
@@ -2129,7 +2129,7 @@ export const imageData = JSON.parse(`
       {
         "name": "01-01-Konfirmation_Liselotte_1966_01.JPG",
         "thumbName": "01-01-Konfirmation_Liselotte_1966_01.JPG",
-        "description": "Konfirmation 1966: v. li. Hannelore Schorr, Marianne Scheer, Liselotte Schmidt, Isolde Hollweck, Ute Kaubisch, Annette Pickel, Manfred Eckstein, Richard Billhöfer, dahinter Theo Herold, Reinhold Bloß, Gerhard Pöhner, Ottmar Schmidt",
+        "description": "Konfirmation 1966: v. li. Hannelore Schorr, Marianne Scheer, Liselotte Schmidt, Isolde Hollweck, Ute Kaubisch, Annette Pickel, Manfred Eckstein, Richard Billhöfer, dahinter Theo Herold, Reinhold Blos, Gerhard Pöhner, Ottmar Schmidt",
         "type": "image"
       },
       {
@@ -2153,7 +2153,7 @@ export const imageData = JSON.parse(`
       {
         "name": "05-05-Konfirmation_Markus_Eckstein.JPG",
         "thumbName": "05-05-Konfirmation_Markus_Eckstein.JPG",
-        "description": "Konfirmation 9.5.1995. von links nach rechts: Rene Billhöfer, Rainer Kraußer, Claudia Billhöfer, Johannes Lochner, Angelika Hiller, Philipp Schuster, Sabrina Schwandner, Holger Nerreter, Markus Eckstein, Diakon Johannes Deyerl, Pfarrerin Claudia Flierl-Simon.",
+        "description": "Konfirmation 9.5.1995. von links nach rechts: René Billhöfer, Rainer Kraußer, Claudia Billhöfer, Johannes Lochner, Angelika Hiller, Philipp Schuster, Sabrina Schwandner, Holger Nerreter, Markus Eckstein, Diakon Johannes Deyerl, Pfarrerin Claudia Flierl-Simon.",
         "type": "image"
       },
       {
@@ -2231,7 +2231,7 @@ export const imageData = JSON.parse(`
       {
         "name": "18-20-Konfiprüfung2013 001.JPG",
         "thumbName": "18-20-Konfiprüfung2013 001.JPG",
-        "description": "Der Konfirmandenprüfung 2013 stellten sich: Pia Abraham, Antonia Brandmann, Lisa Eberhard, Marlene Fink, Philip Fischer, Celine Frodl, Julian Koch, Manuel Lutz, Joschua Meister, Sandra Nerreter, Robin Siering, ErikThieme, Tim Weinzierl, Marc-Philipp Wörner (Reihenfolge  nicht verbindlich).",
+        "description": "Der Konfirmandenprüfung 2013 stellten sich: Pia Abraham, Antonia Brandmann, Lisa Eberhard, Marlene Fink, Philip Fischer, Celine Frodl, Julian Koch, Manuel Lutz, Joschua Meister, Sandra Nerreter, Robin Siering, Erik Thieme, Tim Weinzierl, Marc-Philipp Wörner (Reihenfolge nicht verbindlich).",
         "type": "image"
       },
       {
@@ -2436,7 +2436,7 @@ export const imageData = JSON.parse(`
       {
         "name": "01-P7080002.JPG",
         "thumbName": "01-P7080002.JPG",
-        "description": "",
+        "description": "Zeltaufbau für Gemeindefest 2015.",
         "type": "image"
       },
       {
@@ -2718,20 +2718,20 @@ export const imageData = JSON.parse(`
         "type": "image"
       },
       {
-        "name": "03-Dorffest.jpg",
-        "thumbName": "03-Dorffest.jpg",
-        "description": "Singkreis beim Dorffest Pattenhofen, Leitung: Elke Schmid seit 2005",
-        "type": "image"
-      },
-      {
-        "name": "03a-Dorffest 2004 006.JPG",
-        "thumbName": "03a-Dorffest 2004 006.JPG",
+        "name": "03-Dorffest 2004 006.JPG",
+        "thumbName": "03-Dorffest 2004 006.JPG",
         "description": "Dorffest Pattenhofen 2004, Zeltgottesdienst mit Singkreis, Leitung: Sigrid Rüger",
         "type": "image"
       },
       {
-        "name": "04-09a-P1010815.JPG",
-        "thumbName": "04-09a-P1010815.JPG",
+        "name": "04-08-Dorffest.jpg",
+        "thumbName": "04-08-Dorffest.jpg",
+        "description": "Singkreis beim Dorffest Pattenhofen, Leitung: Elke Schmid seit 2005",
+        "type": "image"
+      },
+      {
+        "name": "04-09-P1010815.JPG",
+        "thumbName": "04-09-P1010815.JPG",
         "description": "Dorffest Pattenhofen 2010 - Zeltgottesdienst mit Pfr. Gottfried Winning und Posaunenchor, Leitung: Heinz Fink",
         "type": "image"
       },
@@ -2790,21 +2790,21 @@ export const imageData = JSON.parse(`
         "type": "image"
       },
       {
-        "name": "12-IMG_0585.JPG",
-        "thumbName": "12-IMG_0585.JPG",
-        "description": "Bumberer-Fest mit Andacht von Pfr. Winkler und Posaunenchor am 16.08.2016 im Wald beim Felsenkeller Pattenhofen - Veranstalter: Familie Kurt Bock,  Burgthann",
-        "type": "image"
-      },
-      {
-        "name": "12 Damen mit Kuchen2.JPG",
-        "thumbName": "12 Damen mit Kuchen2.JPG",
+        "name": "11-26-Damen mit Kuchen.JPG",
+        "thumbName": "11-26-Damen mit Kuchen.JPG",
         "description": "Dorffest 2010, Kuchentheke, v. li.: Rita Blos, Brigitte Fleischer, Hilla König, Marianne Meyer, Margit Felsner, Ossi Hagen, Hannelore Dormann, Lotte Eckstein",
         "type": "image"
       },
       {
-        "name": "12 Dorffest 2016.JPG",
-        "thumbName": "12 Dorffest 2016.JPG",
+        "name": "12-1-Dorffest 2016.JPG",
+        "thumbName": "12-1-Dorffest 2016.JPG",
         "description": "Dorffest 2016",
+        "type": "image"
+      },
+      {
+        "name": "12-2-IMG_0585.JPG",
+        "thumbName": "12-2-IMG_0585.JPG",
+        "description": "Bumberer-Fest mit Andacht von Pfr. Winkler und Posaunenchor am 16.08.2016 im Wald beim Felsenkeller Pattenhofen - Veranstalter: Familie Kurt Bock,  Burgthann",
         "type": "image"
       },
       {
